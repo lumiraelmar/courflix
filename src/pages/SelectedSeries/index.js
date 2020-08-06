@@ -14,29 +14,36 @@ class App extends React.Component {
     this.state = {
       serie: [],
       hero: '',
-      episodes: []
+      episodes: [],
+      content: []
     }
   }
 
   componentDidMount() {
-      const filtered = data[0].series.filter((dat) => {
-        return dat.id == this.props.match.params.id
+    const series = [...data[0].series, ...data[0].movies, ...data[0].recommended]
+      const filtered = series.filter((serie) => {
+        return serie.id == this.props.match.params.id
       })
+
+
       this.setState({
         serie: filtered[0],
         hero: filtered[0].heroImg,
         episodes: filtered[0].episodes,
+        content: filtered[0].content
       });
+      
     }
 
   render() {
-    const { serie, hero, episodes } = this.state
+    const { serie, hero, episodes, content } = this.state
+    
     return (
       <div>
         <Navbar logo={logo}/>
         <Hero infoSerie={serie} style={{backgroundImage:`linear-gradient(270deg, rgba(0, 0, 0, 0.0001) 65%, #000000 100%), url(${hero})`}} />
         <div class="gradient"></div>
-        <EpisodeCarousel episodes={episodes} />
+        <EpisodeCarousel episodes={episodes} content={content}/>
       </div>
     )
   }

@@ -14,7 +14,9 @@ class Navbar extends React.Component {
       <nav className='nav'>
         <img className='pageLogo' src={this.props.logo}></img>
         <ul className='navbar'>
-          <a onClick={this.scrollToTop}><li className='link'>Inicio</li></a>
+          <Link to='/'>
+            <a onClick={this.scrollToTop}><li className='link'>Inicio</li></a>
+          </Link>
           <Link activeClass="active" to="series" spy={true} smooth={true} offset={-80} duration={500} onSetActive={this.handleSetActive}>
             <li className='link'>Series</li>
           </Link>

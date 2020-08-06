@@ -14,7 +14,8 @@ class Hero extends React.Component {
           <div className='seriesDetails'>
             <p className='heroAge'>{ageRate}</p>
             <p className='heroYear'>{year}</p>
-            <p className='heroSeasons'>{seasons} seasons</p>
+            {(seasons !== undefined) ?
+            <p className='heroSeasons'>{seasons} seasons</p> : <p></p>}
           </div>
           <p className='heroDescription'>{desc}</p>
         </div>
