@@ -1,0 +1,17 @@
+$mobile-breakpoint: 480px;
+$tablet-breakpoint: 1024px;
+$hamburger-breakpoint: 950px;
+
+.carouselImgWrapper {
+  padding-top: 15px;
+  .carouselImg {
+    width: 341px;
+    height: 192px;
+    object-fit: cover;
+    overflow: hidden;
+    @media screen and (max-width: $mobile-breakpoint) {
+      width: 220px;
+      height: 124px; 
+    }
+  }
+}

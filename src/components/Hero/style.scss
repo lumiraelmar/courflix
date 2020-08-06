@@ -1,0 +1,97 @@
+$mobile-breakpoint: 480px;
+$tablet-breakpoint: 1024px;
+$hamburger-breakpoint: 950px;
+
+.heroWrapper {
+  color: #fff;
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  .heroImg {
+    background-size: cover;
+    background-position: center;
+    padding: 160px 80px 120px;
+    min-height: 85vh;
+    @media screen and (max-width: $tablet-breakpoint) {
+        padding: 160px 50px 120px;
+        min-height: 60vh;
+      }
+      @media screen and (max-width: $mobile-breakpoint) {
+        padding: 100px 30px 130px;
+        min-height: 40vh ;
+        background-position: center;
+      }
+    .heroTitle {
+      font-size: 7.5rem;
+      margin-bottom: 40px;
+      line-height: 6rem;
+      max-width: 650px;
+      font-weight: bold;
+      @media screen and (max-width: $mobile-breakpoint) {
+        display: block;
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 0px;
+      }
+    }
+    .heroButton {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 198px;
+      height: 60px;
+      background: rgba(157, 151, 151, 0.541521);
+      border-radius: 9px;
+      margin-right: 25px;
+      text-decoration: none;
+      color: #fff;
+      font-size: 1.3rem;
+      font-weight: 300;
+      @media screen and (max-width: $mobile-breakpoint) {
+        width: 131px;
+        height: 43px;
+        margin-right: 7px;
+        border-radius: 3px; 
+      }
+    }
+    .seriesDetails {
+      margin: 20px 0;
+      font-size: 1.1rem;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      font-weight: bold;
+      @media screen and (max-width: $mobile-breakpoint) {
+        margin: 15px 0 17px;
+      }
+      .heroAge {
+        color: #FFFFFF;
+        padding: 2px 6px;
+        border: 1px solid #979797;
+        border-radius: 8px;
+        margin-right: 10px;
+        @media screen and (max-width: $mobile-breakpoint) {
+          border: none;
+        }
+      }
+      .heroYear {
+        color: #FFFFFF;
+        margin-right: 10px;
+      }
+      .heroSeason {
+        color: #FFFFFF;
+        font-weight: bold;
+      }
+    }
+    .heroDescription {
+      margin-top: 10px;
+      font-size: 1.4rem;
+      max-width: 600px;
+      line-height: 2rem;
+      font-weight: 300;
+      @media screen and (max-width: $mobile-breakpoint) {
+        display: none;
+      }
+    }
+    }
+}
+  
