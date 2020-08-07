@@ -8,7 +8,6 @@ $hamburger-breakpoint: 950px;
   font-family: 'Open Sans', sans-serif;
   .heroImg {
     background-size: cover;
-    background-position: center;
     padding: 160px 80px 120px;
     min-height: 85vh;
     @media screen and (max-width: $tablet-breakpoint) {
