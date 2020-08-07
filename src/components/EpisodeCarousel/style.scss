@@ -31,6 +31,9 @@ $hamburger-breakpoint: 950px;
       flex-direction: row;
       align-items: flex-start;
     }
+    @media screen and (max-width: $mobile-breakpoint) {
+      flex-direction: column;
+    }
     .episodeImg {
       width: 341px;
       height: 192px;
@@ -42,21 +45,24 @@ $hamburger-breakpoint: 950px;
       }
     }
     .episodeInfo {
-      @media screen and (max-width: $tablet-breakpoint) {
-        display: flex;
-        flex-direction: column;
-        width: 40%;
-        margin-left: 15px;
-      }
+      display: none;
+        @media screen and (max-width: $mobile-breakpoint) {
+          display: flex;
+          flex-direction: column;
+          color: #fff;
+        }
       .episodeTitle {
         color: #fff;
         padding: 10px 0;
+        @media screen and (max-width: $mobile-breakpoint) {
+          font-size: 1rem;
+          }
+        
       }
       .episodeDesc {
-        display: none;
-        @media screen and (max-width: $tablet-breakpoint) {
-          display: block;
-          color: #fff;
+        @media screen and (max-width: $mobile-breakpoint) {
+        font-size: 0.9rem;
+        line-height: 1.1;
         }
       }
     }

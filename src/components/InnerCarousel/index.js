@@ -22,12 +22,22 @@ class InnerCarousel extends React.Component {
             slidesToShow: 1,
             slidesToScroll: 1,
           }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            variableWidth: true,
+            arrows: false
+          }
         }
       ]
     } 
   }
 
   render() {
+    console.log(this.props.option.mobileImg)
     return (
       <div className='sliderWrapper'>
         <Slider {...this.settings}>
@@ -35,7 +45,8 @@ class InnerCarousel extends React.Component {
             return (
               <div className='carouselImgWrapper'>
                 <Link to={`/content/${serie.id}`}>
-                  <img className='carouselImg' src={serie.img} key={key}/>
+                  <img className='carouselImg' src={serie.img}/>
+                  <img className='carouselImgMobile' src={serie.mobileImg}/>
                 </Link>
               </div>
             )

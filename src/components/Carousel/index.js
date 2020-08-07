@@ -10,7 +10,7 @@ class Carousel extends React.Component {
     return (
       <div className='carouselWrapper'>
         <div className='individualWrapper'>
-          <span class="carouselTitle" id={id}>{title}</span>
+          <span className="carouselTitle" id={id}>{title}</span>
           <InnerCarousel option={option}/>
         </div>
       </div>

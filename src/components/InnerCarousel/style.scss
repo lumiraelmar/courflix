@@ -8,10 +8,19 @@ $hamburger-breakpoint: 950px;
     width: 341px;
     height: 192px;
     object-fit: cover;
-    overflow: hidden;
+    margin-right: 7px;
     @media screen and (max-width: $mobile-breakpoint) {
-      width: 220px;
-      height: 124px; 
+      display: none;
+    }
+  }
+  .carouselImgMobile {
+    display: none;
+    @media screen and (max-width: $mobile-breakpoint) {
+      display: block;
+      width: 130px;
+      height: 187px; 
+      object-fit: cover;
+      margin-right: 7px;
     }
   }
 }

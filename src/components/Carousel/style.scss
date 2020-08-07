@@ -17,11 +17,6 @@ $hamburger-breakpoint: 950px;
   .individualWrapper {
     margin-top: 22px;
     margin-bottom: 35px;
-
-    @media screen and (max-width: $mobile-breakpoint) {
-      margin-top: 10px;
-      margin-bottom: 15px;
-  }
     .carouselTitle {
       font-size: 1.5rem;
       color: #fff;;

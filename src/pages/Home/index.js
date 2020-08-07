@@ -14,7 +14,7 @@ class App extends React.Component {
       <div className='wrapper'>
         <Navbar logo={logo}/>
         <Hero infoSerie={data[0].series[1]} style={{backgroundImage:`linear-gradient(270deg, rgba(0, 0, 0, 0.0001) 65%, #000000 100%), url(${data[0].series[1].heroImg})`}}/>
-        <div class="gradient"></div>
+        <div className="gradient"></div>
         <Carousel option={data[0].series} title='Series' id='series'/>
         <Carousel option={data[0].movies} title='Peliculas' id='movies'/>
         <Carousel option={data[0].recent} title='Agregadas Recientemente' id='recent'/>
