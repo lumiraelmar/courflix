@@ -20,7 +20,7 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    const series = [...data[0].series, ...data[0].movies, ...data[0].recommended]
+    const series = [...data[0].series, ...data[0].movies, ...data[0].recent]
       const filtered = series.filter((serie) => {
         return serie.id == this.props.match.params.id
       })
