@@ -46,7 +46,7 @@ $hamburger-breakpoint: 950px;
       }
     }
     .episodeInfo {
-      display: none;
+      
         @media screen and (max-width: $mobile-breakpoint) {
           display: flex;
           flex-direction: column;
@@ -61,7 +61,9 @@ $hamburger-breakpoint: 950px;
         
       }
       .episodeDesc {
+        display: none;
         @media screen and (max-width: $mobile-breakpoint) {
+        display: block;
         font-size: 0.9rem;
         line-height: 1.1;
         }
