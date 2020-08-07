@@ -23,7 +23,7 @@ class InnerCarousel extends React.Component {
           }
         },
         {
-          breakpoint: 1024,
+          breakpoint: 480,
           settings: 'unslick'
         }
       ]
