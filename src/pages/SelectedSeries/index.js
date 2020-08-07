@@ -39,7 +39,7 @@ class App extends React.Component {
     const { serie, hero, episodes, content } = this.state
     
     return (
-      <div>
+      <div className='wrapper'>
         <Navbar logo={logo}/>
         <Hero infoSerie={serie} style={{backgroundImage:`linear-gradient(270deg, rgba(0, 0, 0, 0.0001) 65%, #000000 100%), url(${hero})`}} />
         <div class="gradient"></div>

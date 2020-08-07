@@ -1,6 +1,5 @@
 import React from 'react';
 import '../Hero/style.scss'
-import data from '../../data/courflix.json'
 
 class Hero extends React.Component {
   render() {

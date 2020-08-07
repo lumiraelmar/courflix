@@ -21,10 +21,16 @@ class InnerCarousel extends React.Component {
             slidesToShow: 1,
             slidesToScroll: 1,
           }
+        },
+        {
+          breakpoint: 1024,
+          settings: 'unslick'
         }
       ]
     } 
   }
+
+  
 
   render() {
     const { episodes, content } = this.props
@@ -40,8 +46,10 @@ class InnerCarousel extends React.Component {
                 return (
                   <div className='episodeWrapper'>
                     <img className='episodeImg' src={episode.img} key={key}/>
-                    <p className='episodeTitle'>{episode.title}</p>
-                    <p className='episodeDesc'>{episode.desc}</p>
+                    <div className='episodeInfo'>
+                      <p className='episodeTitle'>{episode.title}</p>
+                      <p className='episodeDesc'>{episode.desc}</p>
+                    </div>
                   </div>
                 )
               })}
@@ -56,8 +64,10 @@ class InnerCarousel extends React.Component {
                 return (
                   <div className='episodeWrapper'>
                     <img className='episodeImg' src={cont.img} key={key}/>
-                    <p className='episodeTitle'>{cont.title}</p>
-                    <p className='episodeDesc'>{cont.desc}</p>
+                    <div className='episodeInfo'>
+                      <p className='episodeTitle'>{cont.title}</p>
+                      <p className='episodeDesc'>{cont.desc}</p>
+                    </div>
                   </div>
                 )
               })}

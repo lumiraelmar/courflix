@@ -10,15 +10,15 @@ $hamburger-breakpoint: 950px;
     background-size: cover;
     padding: 160px 80px 120px;
     min-height: 85vh;
-    @media screen and (max-width: $tablet-breakpoint) {
+    @media (max-width: $tablet-breakpoint) {
         padding: 160px 50px 120px;
         min-height: 60vh;
       }
-      @media screen and (max-width: $mobile-breakpoint) {
-        padding: 100px 30px 130px;
-        min-height: 40vh ;
-        background-position: center;
-      }
+    @media screen and (max-width: $mobile-breakpoint) {
+      padding: 100px 30px 130px;
+      min-height: 40vh ;
+      background-position: center;
+    }
     .heroTitle {
       font-size: 7.5rem;
       margin-bottom: 40px;

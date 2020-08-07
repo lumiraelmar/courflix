@@ -6,11 +6,14 @@
 }
 
 
-
-.heroImg {
-  background-size: cover;
-  padding: 160px 80px 120px;
-  min-height: 85vh;
-  color: #fff;
-  display: block;
+.wrapper {
+  min-height: 100vh;
+  background-color: #000;
+  .heroImg {
+    background-size: cover;
+    padding: 160px 80px 120px;
+    min-height: 85vh;
+    color: #fff;
+    display: block;
+  }
 }
