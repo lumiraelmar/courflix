@@ -3,27 +3,14 @@ $tablet-breakpoint: 1024px;
 $hamburger-breakpoint: 950px;
 
 .carouselWrapper {
-  padding: 0 80px;
-  margin-top: -50px;
-  background-color: #000;
-  display: flex;
-  flex-direction: column;
-  @media screen and (max-width: $tablet-breakpoint) {
-    padding: 0 50px;
-  }
-  @media screen and (max-width: $mobile-breakpoint) {
-    padding: 0 30px; 
-  }
-  .individualWrapper {
-    margin-top: 22px;
-    margin-bottom: 35px;
-    .carouselTitle {
-      font-size: 1.5rem;
-      color: #fff;;
-      font-weight: bold;
-      @media screen and (max-width: $mobile-breakpoint) {
-        font-size: 1.1rem; 
-      }
+  padding-top: 22px;
+  padding-bottom: 35px;
+  .carouselTitle {
+    font-size: 1.5rem;
+    color: #fff;;
+    font-weight: bold;
+    @media screen and (max-width: $mobile-breakpoint) {
+      font-size: 1.1rem; 
     }
   }
   

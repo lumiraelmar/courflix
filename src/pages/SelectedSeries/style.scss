@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+$mobile-breakpoint: 480px;
+$tablet-breakpoint: 1024px;
+$hamburger-breakpoint: 950px;
+
 * {
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
@@ -9,4 +13,25 @@
 .wrapper {
   min-height: 100vh;
   background-color: #000;
+  .carouselsWrapper {
+    padding: 0 80px;
+    margin-top: -50px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    @media screen and (max-width: $tablet-breakpoint) {
+      padding: 0 50px;
+    }
+    @media screen and (max-width: $mobile-breakpoint) {
+      padding: 0 30px; 
+    }
+  }
+}
+
+.sliderWrapper {
+  display: flex;
+  flex-direction: row;
+  @media screen and (max-width: $mobile-breakpoint) {
+    flex-direction: column;
+  }
 }

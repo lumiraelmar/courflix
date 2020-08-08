@@ -6,13 +6,11 @@ class Carousel extends React.Component {
 
   
   render() {
-    const { option, title, id } = this.props
+    const { content, carouselTitle, id, from } = this.props
     return (
       <div className='carouselWrapper'>
-        <div className='individualWrapper'>
-          <span className="carouselTitle" id={id}>{title}</span>
-          <InnerCarousel option={option}/>
-        </div>
+          <span className="carouselTitle" id={id}>{carouselTitle}</span>
+          <InnerCarousel content={content} from={from}/>
       </div>
     )
   }

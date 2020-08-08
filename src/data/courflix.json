@@ -12,29 +12,29 @@
       "ageRate": "PG",
       "episodes": [
         {
-          "title": "1. Monotone/Colorful",
-          "desc": "A former piano prodigy is about to discover that a seemingly small event can drastically alter the direction of a person's life.",
-          "img":"https://i.postimg.cc/DwRsKtB3/cap1.jpg"
+          "contentTitle": "1. Monotone/Colorful",
+          "contentDesc": "A former piano prodigy is about to discover that a seemingly small event can drastically alter the direction of a person's life.",
+          "contentImg":"https://i.postimg.cc/DwRsKtB3/cap1.jpg"
           },
           {
-            "title": "2. Friend A",
-            "desc": "Kousei gets tricked into going to a performance by his close childhood friend and in that performance he starts to regain a shred of his passion.",
-            "img": "https://i.postimg.cc/Tw6DKgzk/cap2.jpg"
+            "contentTitle": "2. Friend A",
+            "contentDesc": "Kousei gets tricked into going to a performance by his close childhood friend and in that performance he starts to regain a shred of his passion.",
+            "contentImg": "https://i.postimg.cc/Tw6DKgzk/cap2.jpg"
           },
           {
-            "title": "3. Inside Spring",
-            "desc": "Kousei's friends work together to try to convince him to accompany Kaori at her next recital.",
-            "img": "https://i.postimg.cc/SRQYrqNC/cap3.jpg"
+            "contentTitle": "3. Inside Spring",
+            "contentDesc": "Kousei's friends work together to try to convince him to accompany Kaori at her next recital.",
+            "contentImg": "https://i.postimg.cc/SRQYrqNC/cap3.jpg"
           },
           {
-            "title": "4. Departure",
-            "desc": "Kousai being Kaori's accompanist appears to be a bad idea.",
-            "img": "https://i.postimg.cc/G2xsG9rb/cap4.jpg"
+            "contentTitle": "4. Departure",
+            "contentDesc": "Kousai being Kaori's accompanist appears to be a bad idea.",
+            "contentImg": "https://i.postimg.cc/G2xsG9rb/cap4.jpg"
           },
           {
-            "title": "5. Gray Skies",
-            "desc": "Kaori is hospitalized after the competition. Kousei thinks deeply that playing the piano is the only way he can live. Tsubaki gets asked out by her senior she had admired before.",
-            "img": "https://i.postimg.cc/h4MdGJpr/cap5.jpg"
+            "contentTitle": "5. Gray Skies",
+            "contentDesc": "Kaori is hospitalized after the competition. Kousei thinks deeply that playing the piano is the only way he can live. Tsubaki gets asked out by her senior she had admired before.",
+            "contentImg": "https://i.postimg.cc/h4MdGJpr/cap5.jpg"
           }
     ]},
     {
@@ -49,29 +49,29 @@
       "ageRate": "+16",
       "episodes": [
         {
-          "title": "1. Chapter One: The Vanishing of Will Byers",
-          "desc": "At the U.S. Dept. of Energy an unexplained event occurs. Then when a young Dungeons and Dragons playing boy named Will disappears after a night with his friends, his mother Joyce and the town of Hawkins are plunged into darkness.",
-          "img":"https://i.postimg.cc/wMSHBcPM/cap1.jpg"
+          "contentTitle": "1. Chapter One: The Vanishing of Will Byers",
+          "contentDesc": "At the U.S. Dept. of Energy an unexplained event occurs. Then when a young Dungeons and Dragons playing boy named Will disappears after a night with his friends, his mother Joyce and the town of Hawkins are plunged into darkness.",
+          "contentImg":"https://i.postimg.cc/wMSHBcPM/cap1.jpg"
           },
           {
-            "title": "2. Chapter Two: The Weirdo on Maple Street",
-            "desc": "Mike hides the mysterious girl in his house. Joyce gets a strange phone call.",
-            "img": "https://i.postimg.cc/kXbqpz6b/cap2.jpg"
+            "contentTitle": "2. Chapter Two: The Weirdo on Maple Street",
+            "contentDesc": "Mike hides the mysterious girl in his house. Joyce gets a strange phone call.",
+            "contentImg": "https://i.postimg.cc/kXbqpz6b/cap2.jpg"
           },
           {
-            "title": "3. Chapter Three: Holly, Jolly",
-            "desc": "An increasingly concerned Nancy looks for Barb and finds out what Jonathan's been up to. Joyce is convinced Will is trying to talk to her.",
-            "img": "https://i.postimg.cc/ht8gSm04/cap3.jpg"
+            "contentTitle": "3. Chapter Three: Holly, Jolly",
+            "contentDesc": "An increasingly concerned Nancy looks for Barb and finds out what Jonathan's been up to. Joyce is convinced Will is trying to talk to her.",
+            "contentImg": "https://i.postimg.cc/ht8gSm04/cap3.jpg"
           },
           {
-            "title": "4. Chapter Four: The Body",
-            "desc": "Refusing to believe Will is dead, Joyce tries to connect with her son. The boys give Eleven a makeover. Jonathan and Nancy form an unlikely alliance.",
-            "img": "https://i.postimg.cc/zGY8Z7KP/cap4.jpg"
+            "contentTitle": "4. Chapter Four: The Body",
+            "contentDesc": "Refusing to believe Will is dead, Joyce tries to connect with her son. The boys give Eleven a makeover. Jonathan and Nancy form an unlikely alliance.",
+            "contentImg": "https://i.postimg.cc/zGY8Z7KP/cap4.jpg"
           },
           {
-            "title": "5. Chapter Five: The Flea and the Acrobat",
-            "desc": "Hopper breaks into the lab to find the truth about Will's death. The boys try to locate the \"gate\" that will take them to Will.",
-            "img": "https://i.postimg.cc/BZyJN463/cap5.jpg"
+            "contentTitle": "5. Chapter Five: The Flea and the Acrobat",
+            "contentDesc": "Hopper breaks into the lab to find the truth about Will's death. The boys try to locate the \"gate\" that will take them to Will.",
+            "contentImg": "https://i.postimg.cc/BZyJN463/cap5.jpg"
           }
       ]},
     {
@@ -86,29 +86,29 @@
       "ageRate": "+13",
       "episodes": [
         {
-          "title": "1. Pilot",
-          "desc": "Sam and Dean Winchester were trained by their father to hunt the creatures of the supernatural. Now, their father has mysteriously disappeared while hunting the demon that killed their mother, 22 years ago.",
-          "img":"https://i.postimg.cc/tJhyYVHz/cap1.jpg"
+          "contentTitle": "1. Pilot",
+          "contentDesc": "Sam and Dean Winchester were trained by their father to hunt the creatures of the supernatural. Now, their father has mysteriously disappeared while hunting the demon that killed their mother, 22 years ago.",
+          "contentImg":"https://i.postimg.cc/tJhyYVHz/cap1.jpg"
           },
           {
-            "title": "2. Wendigo",
-            "desc": "Sam and Dean make a stop at Blackwater Ridge and end up helping a young woman and her brother find their other brother, who mysteriously disappeared, while on a camping trip, in the woods.",
-            "img": "https://i.postimg.cc/7ZB4Gkjj/cap2.jpg"
+            "contentTitle": "2. Wendigo",
+            "contentDesc": "Sam and Dean make a stop at Blackwater Ridge and end up helping a young woman and her brother find their other brother, who mysteriously disappeared, while on a camping trip, in the woods.",
+            "contentImg": "https://i.postimg.cc/7ZB4Gkjj/cap2.jpg"
           },
           {
-            "title": "3. Dead in the Water",
-            "desc": "Something, in the lake of a small town, is killing innocent people.",
-            "img": "https://i.postimg.cc/R0yzdTSR/cap3.jpg"
+            "contentTitle": "3. Dead in the Water",
+            "contentDesc": "Something, in the lake of a small town, is killing innocent people.",
+            "contentImg": "https://i.postimg.cc/R0yzdTSR/cap3.jpg"
           },
           {
-            "title": "4. Phantom Traveler",
-            "desc": "A friend of John's calls Sam and Dean for help about a strange recording on the black box of a crashed plane. They soon realize that the demon which caused the crash is picking off the crash's only seven survivors.",
-            "img": "https://i.postimg.cc/T32G3wNr/cap4.jpg"
+            "contentTitle": "4. Phantom Traveler",
+            "contentDesc": "A friend of John's calls Sam and Dean for help about a strange recording on the black box of a crashed plane. They soon realize that the demon which caused the crash is picking off the crash's only seven survivors.",
+            "contentImg": "https://i.postimg.cc/T32G3wNr/cap4.jpg"
           },
           {
-            "title": "5. Bloody Mary",
-            "desc": "A game of Bloody Mary unleashes a ghost who lives in mirrors and kills by gouging out the eyes of her prey, Sam and Dean must find a way to stop her before she claims another victim.",
-            "img": "https://i.postimg.cc/7Ynw479H/cap5.jpg"
+            "contentTitle": "5. Bloody Mary",
+            "contentDesc": "A game of Bloody Mary unleashes a ghost who lives in mirrors and kills by gouging out the eyes of her prey, Sam and Dean must find a way to stop her before she claims another victim.",
+            "contentImg": "https://i.postimg.cc/7Ynw479H/cap5.jpg"
           }
       ]},
     {
@@ -123,29 +123,29 @@
       "ageRate": "PG",
       "episodes": [
         {
-          "title": "1. Pilot (The Time Thing)",
-          "desc": "Steven gets a hold of a magical time travel hourglass and does what any kid would do - he uses it for comebacks. But toying with magic draws trouble to his sleepy beach town and Steven has to step up and save the day - with more comebacks.",
-          "img":"https://i.postimg.cc/GhX3YGyM/cap1.jpg"
+          "contentTitle": "1. Pilot (The Time Thing)",
+          "contentDesc": "Steven gets a hold of a magical time travel hourglass and does what any kid would do - he uses it for comebacks. But toying with magic draws trouble to his sleepy beach town and Steven has to step up and save the day - with more comebacks.",
+          "contentImg":"https://i.postimg.cc/GhX3YGyM/cap1.jpg"
           },
           {
-            "title": "2. Gem Glow",
-            "desc": "Steven thinks his favorite ice cream sandwiches are the trick to summoning his magic shield but learns otherwise when facing off with an acid spewing insect monster.",
-            "img": "https://i.postimg.cc/6QvBDP1S/cap2.jpg"
+            "contentTitle": "2. Gem Glow",
+            "contentDesc": "Steven thinks his favorite ice cream sandwiches are the trick to summoning his magic shield but learns otherwise when facing off with an acid spewing insect monster.",
+            "contentImg": "https://i.postimg.cc/6QvBDP1S/cap2.jpg"
           },
           {
-            "title": "3. Laser Light Cannon",
-            "desc": "Steven and his father, Greg, search for a light canon that is the only thing that can stop an extraterrestrial object from destroying Beach City.",
-            "img": "https://i.postimg.cc/ZRzJZLGq/cap3.jpg"
+            "contentTitle": "3. Laser Light Cannon",
+            "contentDesc": "Steven and his father, Greg, search for a light canon that is the only thing that can stop an extraterrestrial object from destroying Beach City.",
+            "contentImg": "https://i.postimg.cc/ZRzJZLGq/cap3.jpg"
           },
           {
-            "title": "4. Cheeseburger Backpack",
-            "desc": "Steven takes his newest backpack along on a mission to save a Gem sanctuary.",
-            "img": "https://i.postimg.cc/RhXm7xN3/cap4.png"
+            "contentTitle": "4. Cheeseburger Backpack",
+            "contentDesc": "Steven takes his newest backpack along on a mission to save a Gem sanctuary.",
+            "contentImg": "https://i.postimg.cc/RhXm7xN3/cap4.png"
           },
           {
-            "title": "5. Together Breakfast",
-            "desc": "Steven makes the perfect breakfast, and is determined to share it with the gems.",
-            "img": "https://i.postimg.cc/zG3zkvwq/cap5.jpg"
+            "contentTitle": "5. Together Breakfast",
+            "contentDesc": "Steven makes the perfect breakfast, and is determined to share it with the gems.",
+            "contentImg": "https://i.postimg.cc/zG3zkvwq/cap5.jpg"
           }
       ]},
     {
@@ -160,29 +160,29 @@
       "ageRate": "+16",
       "episodes": [
         {
-          "title": "1. Pilot",
-          "desc": "97 years after a nuclear war, human kind is living in space. 100 juvenile delinquents are sent down to Earth to see if the planet is habitable.",
-          "img":"https://i.postimg.cc/BZMfwsnb/cap1.jpg"
+          "contentTitle": "1. Pilot",
+          "contentDesc": "97 years after a nuclear war, human kind is living in space. 100 juvenile delinquents are sent down to Earth to see if the planet is habitable.",
+          "contentImg":"https://i.postimg.cc/BZMfwsnb/cap1.jpg"
           },
           {
-            "title": "2. Earth Skills",
-            "desc": "Discovering that Jasper may still be alive, Clarke, Bellamy, Finn, Wells and Murphy head out to find him. On the Ark, Abby is determined to prove Earth is habitable, and enlists a mechanic to craft an escape pod.",
-            "img": "https://i.postimg.cc/Dy0k9DSg/cap2.jpg"
+            "contentTitle": "2. Earth Skills",
+            "contentDesc": "Discovering that Jasper may still be alive, Clarke, Bellamy, Finn, Wells and Murphy head out to find him. On the Ark, Abby is determined to prove Earth is habitable, and enlists a mechanic to craft an escape pod.",
+            "contentImg": "https://i.postimg.cc/Dy0k9DSg/cap2.jpg"
           },
           {
-            "title": "3. Earth Kills",
-            "desc": "As a dangerous, acidic fog approaches, Clarke, Finn and Wells set out in search of a seaweed-like plant to make an antibiotic poultice for Jasper's wounds, while a vulnerable young girl follows when Bellamy takes a group out hunting for food.",
-            "img": "https://i.postimg.cc/ydjt5XBt/cap3.jpg"
+            "contentTitle": "3. Earth Kills",
+            "contentDesc": "As a dangerous, acidic fog approaches, Clarke, Finn and Wells set out in search of a seaweed-like plant to make an antibiotic poultice for Jasper's wounds, while a vulnerable young girl follows when Bellamy takes a group out hunting for food.",
+            "contentImg": "https://i.postimg.cc/ydjt5XBt/cap3.jpg"
           },
           {
-            "title": "4. Murphy's Law",
-            "desc": "Bellamy, Clarke and Finn try to protect Charlotte when everyone learns she killed Wells. On the Ark, Abby risks getting floated in order to give Raven the chance to launch the escape pod.",
-            "img": "https://i.postimg.cc/FKtMJHDW/cap4.jpg"
+            "contentTitle": "4. Murphy's Law",
+            "contentDesc": "Bellamy, Clarke and Finn try to protect Charlotte when everyone learns she killed Wells. On the Ark, Abby risks getting floated in order to give Raven the chance to launch the escape pod.",
+            "contentImg": "https://i.postimg.cc/FKtMJHDW/cap4.jpg"
           },
           {
-            "title": "5. Twilight's Last Gleaming",
-            "desc": "A plan to contact the Ark is put in motion after Raven crash lands on Earth. Meanwhile, Abby exposes Kane's plan to reduce the population of the Ark.",
-            "img": "https://i.postimg.cc/zB840PmT/cap5.jpg"
+            "contentTitle": "5. Twilight's Last Gleaming",
+            "contentDesc": "A plan to contact the Ark is put in motion after Raven crash lands on Earth. Meanwhile, Abby exposes Kane's plan to reduce the population of the Ark.",
+            "contentImg": "https://i.postimg.cc/zB840PmT/cap5.jpg"
           }
       ]},
     {
@@ -197,29 +197,29 @@
       "ageRate": "+18",
       "episodes": [
         {
-          "title": "1. Days Gone Bye",
-          "desc": "Deputy Sheriff Rick Grimes awakens from a coma, and searches for his family in a world ravaged by the undead.",
-          "img":"https://i.postimg.cc/c4p9F5w6/cap3.jpg"
+          "contentTitle": "1. Days Gone Bye",
+          "contentDesc": "Deputy Sheriff Rick Grimes awakens from a coma, and searches for his family in a world ravaged by the undead.",
+          "contentImg":"https://i.postimg.cc/c4p9F5w6/cap3.jpg"
           },
           {
-            "title": "2. Guts",
-            "desc": "In Atlanta, Rick is rescued by a group of survivors, but they soon find themselves trapped inside a department store surrounded by walkers.",
-            "img": "https://i.postimg.cc/m2zpNGc0/cap2.jpg"
+            "contentTitle": "2. Guts",
+            "contentDesc": "In Atlanta, Rick is rescued by a group of survivors, but they soon find themselves trapped inside a department store surrounded by walkers.",
+            "contentImg": "https://i.postimg.cc/m2zpNGc0/cap2.jpg"
           },
           {
-            "title": "3. Tell It to the Frogs",
-            "desc": "Rick is reunited with Lori and Carl but soon decides - along with some of the other survivors - to return to the rooftop and rescue Merle. Meanwhile, tensions run high between the other survivors at the camp.",
-            "img": "https://i.postimg.cc/7PQQ2LL3/cap4.jpg"
+            "contentTitle": "3. Tell It to the Frogs",
+            "contentDesc": "Rick is reunited with Lori and Carl but soon decides - along with some of the other survivors - to return to the rooftop and rescue Merle. Meanwhile, tensions run high between the other survivors at the camp.",
+            "contentImg": "https://i.postimg.cc/7PQQ2LL3/cap4.jpg"
           },
           {
-            "title": "4. Vatos",
-            "desc": "Rick, Glenn, Daryl and T-Dog come across a group of seemingly hostile survivors whilst searching for Merle. Back at camp, Jim begins behaving erratically.",
-            "img": "https://i.postimg.cc/Qt8np95b/cap5.jpg"
+            "contentTitle": "4. Vatos",
+            "contentDesc": "Rick, Glenn, Daryl and T-Dog come across a group of seemingly hostile survivors whilst searching for Merle. Back at camp, Jim begins behaving erratically.",
+            "contentImg": "https://i.postimg.cc/Qt8np95b/cap5.jpg"
           },
           {
-            "title": "5. Wildfire",
-            "desc": "After the attack on the camp, Rick leads the survivors to the C.D.C., in the hope that they can cure an infected Jim.",
-            "img": "https://i.postimg.cc/bvHBDHGr/cap1.jpg"
+            "contentTitle": "5. Wildfire",
+            "contentDesc": "After the attack on the camp, Rick leads the survivors to the C.D.C., in the hope that they can cure an infected Jim.",
+            "contentImg": "https://i.postimg.cc/bvHBDHGr/cap1.jpg"
           }
       ]},
     {
@@ -234,29 +234,29 @@
       "ageRate": "+16",
       "episodes": [
         {
-          "title": "1. We Only See Each Other at Weddings and Funerals",
-          "desc": "Years after they rose to fame as young crime-fighting superheroes, the estranged Hargreeves siblings come together to mark their father's death.",
-          "img":"https://i.postimg.cc/Dw5C7fR4/cap1.jpg"
+          "contentTitle": "1. We Only See Each Other at Weddings and Funerals",
+          "contentDesc": "Years after they rose to fame as young crime-fighting superheroes, the estranged Hargreeves siblings come together to mark their father's death.",
+          "contentImg":"https://i.postimg.cc/Dw5C7fR4/cap1.jpg"
           },
           {
-            "title": "2. Run Boy Run",
-            "desc": "After sharing the story of his time travel with Vanya, Five hunts for the owner of a fake eye. But two mysterious assassins are hot on his trail.",
-            "img": "https://i.postimg.cc/nV70CG6J/cap2.jpg"
+            "contentTitle": "2. Run Boy Run",
+            "contentDesc": "After sharing the story of his time travel with Vanya, Five hunts for the owner of a fake eye. But two mysterious assassins are hot on his trail.",
+            "contentImg": "https://i.postimg.cc/nV70CG6J/cap2.jpg"
           },
           {
-            "title": "3. Extra Ordinary",
-            "desc": "Worried their mother is hiding something, Luther and Allison call a family meeting. Cha-Cha and Hazel catch a big break in their hunt for Five.",
-            "img": "https://i.postimg.cc/yxFPt7Fd/cap3.jpg"
+            "contentTitle": "3. Extra Ordinary",
+            "contentDesc": "Worried their mother is hiding something, Luther and Allison call a family meeting. Cha-Cha and Hazel catch a big break in their hunt for Five.",
+            "contentImg": "https://i.postimg.cc/yxFPt7Fd/cap3.jpg"
           },
           {
-            "title": "4. Man on the Moon",
-            "desc": "The story of Luther's transformation emerges. At the motel, Klaus puts Hazel and Cha-Cha's training to the test. Allison grows suspicious of Leonard.",
-            "img": "https://i.postimg.cc/yxqjLD3t/cap4.jpg"
+            "contentTitle": "4. Man on the Moon",
+            "contentDesc": "The story of Luther's transformation emerges. At the motel, Klaus puts Hazel and Cha-Cha's training to the test. Allison grows suspicious of Leonard.",
+            "contentImg": "https://i.postimg.cc/yxqjLD3t/cap4.jpg"
           },
           {
-            "title": "5. Number Five",
-            "desc": "Five lets Luther in on his secret, Klaus returns from a harrowing trip through time, and Vanya begins to feel different without her meds.",
-            "img": "https://i.postimg.cc/J45xQ4rY/cap5.jpg"
+            "contentTitle": "5. Number Five",
+            "contentDesc": "Five lets Luther in on his secret, Klaus returns from a harrowing trip through time, and Vanya begins to feel different without her meds.",
+            "contentImg": "https://i.postimg.cc/J45xQ4rY/cap5.jpg"
           }
       ]}
     
@@ -273,29 +273,29 @@
       "ageRate": "+13",
       "content": [
         {
-          "title": "Big Hero 6",
-          "desc": "The special bond develops between plus-sized inflatable robot Baymax, and prodigy Hiro Hamada. They team up with a group of friends to form a band of high-tech heroes.",
-          "img":"https://i.postimg.cc/gknQtVwH/movie.jpg"
+          "contentTitle": "Big Hero 6",
+          "contentDesc": "The special bond develops between plus-sized inflatable robot Baymax, and prodigy Hiro Hamada. They team up with a group of friends to form a band of high-tech heroes.",
+          "contentImg":"https://i.postimg.cc/gknQtVwH/movie.jpg"
           },
           {
-            "title": "Big Hero 6",
-            "desc": "The special bond develops between plus-sized inflatable robot Baymax, and prodigy Hiro Hamada. They team up with a group of friends to form a band of high-tech heroes.",
-            "img": "https://i.postimg.cc/gknQtVwH/movie.jpg"
+            "contentTitle": "Big Hero 6",
+            "contentDesc": "The special bond develops between plus-sized inflatable robot Baymax, and prodigy Hiro Hamada. They team up with a group of friends to form a band of high-tech heroes.",
+            "contentImg": "https://i.postimg.cc/gknQtVwH/movie.jpg"
           },
           {
-            "title": "Big Hero 6",
-            "desc": "The special bond develops between plus-sized inflatable robot Baymax, and prodigy Hiro Hamada. They team up with a group of friends to form a band of high-tech heroes.",
-            "img": "https://i.postimg.cc/gknQtVwH/movie.jpg"
+            "contentTitle": "Big Hero 6",
+            "contentDesc": "The special bond develops between plus-sized inflatable robot Baymax, and prodigy Hiro Hamada. They team up with a group of friends to form a band of high-tech heroes.",
+            "contentImg": "https://i.postimg.cc/gknQtVwH/movie.jpg"
           },
           {
-            "title": "Big Hero 6",
-            "desc": "The special bond develops between plus-sized inflatable robot Baymax, and prodigy Hiro Hamada. They team up with a group of friends to form a band of high-tech heroes.",
-            "img": "https://i.postimg.cc/gknQtVwH/movie.jpg"
+            "contentTitle": "Big Hero 6",
+            "contentDesc": "The special bond develops between plus-sized inflatable robot Baymax, and prodigy Hiro Hamada. They team up with a group of friends to form a band of high-tech heroes.",
+            "contentImg": "https://i.postimg.cc/gknQtVwH/movie.jpg"
           },
           {
-            "title": "Big Hero 6",
-            "desc": "The special bond develops between plus-sized inflatable robot Baymax, and prodigy Hiro Hamada. They team up with a group of friends to form a band of high-tech heroes.",
-            "img": "https://i.postimg.cc/gknQtVwH/movie.jpg"
+            "contentTitle": "Big Hero 6",
+            "contentDesc": "The special bond develops between plus-sized inflatable robot Baymax, and prodigy Hiro Hamada. They team up with a group of friends to form a band of high-tech heroes.",
+            "contentImg": "https://i.postimg.cc/gknQtVwH/movie.jpg"
           }
     ]},
     {
@@ -309,29 +309,29 @@
       "ageRate": "PG",
       "content": [
         {
-          "title": "",
-          "desc": "",
-          "img":""
+          "contentTitle": "",
+          "contentDesc": "",
+          "contentImg":""
           },
           {
-            "title": "",
-            "desc": "",
-            "img": ""
+            "contentTitle": "",
+            "contentDesc": "",
+            "contentImg": ""
           },
           {
-            "title": "",
-            "desc": "",
-            "img": ""
+            "contentTitle": "",
+            "contentDesc": "",
+            "contentImg": ""
           },
           {
-            "title": "",
-            "desc": "",
-            "img": ""
+            "contentTitle": "",
+            "contentDesc": "",
+            "contentImg": ""
           },
           {
-            "title": "",
-            "desc": "",
-            "img": ""
+            "contentTitle": "",
+            "contentDesc": "",
+            "contentImg": ""
           }
     ]},
     {
@@ -345,29 +345,29 @@
       "ageRate": "+13",
       "content": [
         {
-          "title": "",
-          "desc": "",
-          "img":""
+          "contentTitle": "",
+          "contentDesc": "",
+          "contentImg":""
           },
           {
-            "title": "",
-            "desc": "",
-            "img": ""
+            "contentTitle": "",
+            "contentDesc": "",
+            "contentImg": ""
           },
           {
-            "title": "",
-            "desc": "",
-            "img": ""
+            "contentTitle": "",
+            "contentDesc": "",
+            "contentImg": ""
           },
           {
-            "title": "",
-            "desc": "",
-            "img": ""
+            "contentTitle": "",
+            "contentDesc": "",
+            "contentImg": ""
           },
           {
-            "title": "",
-            "desc": "",
-            "img": ""
+            "contentTitle": "",
+            "contentDesc": "",
+            "contentImg": ""
           }
     ]},
     {
@@ -381,29 +381,29 @@
       "ageRate": "+13",
       "content": [
         {
-          "title": "",
-          "desc": "",
-          "img":""
+          "contentTitle": "",
+          "contentDesc": "",
+          "contentImg":""
           },
           {
-            "title": "",
-            "desc": "",
-            "img": ""
+            "contentTitle": "",
+            "contentDesc": "",
+            "contentImg": ""
           },
           {
-            "title": "",
-            "desc": "",
-            "img": ""
+            "contentTitle": "",
+            "contentDesc": "",
+            "contentImg": ""
           },
           {
-            "title": "",
-            "desc": "",
-            "img": ""
+            "contentTitle": "",
+            "contentDesc": "",
+            "contentImg": ""
           },
           {
-            "title": "",
-            "desc": "",
-            "img": ""
+            "contentTitle": "",
+            "contentDesc": "",
+            "contentImg": ""
           }
     ]},
     {
@@ -417,29 +417,29 @@
       "ageRate": "+16",
       "content": [
         {
-          "title": "",
-          "desc": "",
-          "img":""
+          "contentTitle": "",
+          "contentDesc": "",
+          "contentImg":""
           },
           {
-            "title": "",
-            "desc": "",
-            "img": ""
+            "contentTitle": "",
+            "contentDesc": "",
+            "contentImg": ""
           },
           {
-            "title": "",
-            "desc": "",
-            "img": ""
+            "contentTitle": "",
+            "contentDesc": "",
+            "contentImg": ""
           },
           {
-            "title": "",
-            "desc": "",
-            "img": ""
+            "contentTitle": "",
+            "contentDesc": "",
+            "contentImg": ""
           },
           {
-            "title": "",
-            "desc": "",
-            "img": ""
+            "contentTitle": "",
+            "contentDesc": "",
+            "contentImg": ""
           }
     ]},
     {
@@ -453,29 +453,29 @@
       "ageRate": "PG",
       "content": [
         {
-          "title": "",
-          "desc": "",
-          "img":""
+          "contentTitle": "",
+          "contentDesc": "",
+          "contentImg":""
           },
           {
-            "title": "",
-            "desc": "",
-            "img": ""
+            "contentTitle": "",
+            "contentDesc": "",
+            "contentImg": ""
           },
           {
-            "title": "",
-            "desc": "",
-            "img": ""
+            "contentTitle": "",
+            "contentDesc": "",
+            "contentImg": ""
           },
           {
-            "title": "",
-            "desc": "",
-            "img": ""
+            "contentTitle": "",
+            "contentDesc": "",
+            "contentImg": ""
           },
           {
-            "title": "",
-            "desc": "",
-            "img": ""
+            "contentTitle": "",
+            "contentDesc": "",
+            "contentImg": ""
           }
     ]},
     {
@@ -489,29 +489,29 @@
       "ageRate": "PG",
       "content": [
         {
-          "title": "",
-          "desc": "",
-          "img":""
+          "contentTitle": "",
+          "contentDesc": "",
+          "contentImg":""
           },
           {
-            "title": "",
-            "desc": "",
-            "img": ""
+            "contentTitle": "",
+            "contentDesc": "",
+            "contentImg": ""
           },
           {
-            "title": "",
-            "desc": "",
-            "img": ""
+            "contentTitle": "",
+            "contentDesc": "",
+            "contentImg": ""
           },
           {
-            "title": "",
-            "desc": "",
-            "img": ""
+            "contentTitle": "",
+            "contentDesc": "",
+            "contentImg": ""
           },
           {
-            "title": "",
-            "desc": "",
-            "img": ""
+            "contentTitle": "",
+            "contentDesc": "",
+            "contentImg": ""
           }
     ]},
     {
@@ -525,29 +525,29 @@
       "ageRate": "PG",
       "content": [
         {
-          "title": "",
-          "desc": "",
-          "img":""
+          "contentTitle": "",
+          "contentDesc": "",
+          "contentImg":""
           },
           {
-            "title": "",
-            "desc": "",
-            "img": ""
+            "contentTitle": "",
+            "contentDesc": "",
+            "contentImg": ""
           },
           {
-            "title": "",
-            "desc": "",
-            "img": ""
+            "contentTitle": "",
+            "contentDesc": "",
+            "contentImg": ""
           },
           {
-            "title": "",
-            "desc": "",
-            "img": ""
+            "contentTitle": "",
+            "contentDesc": "",
+            "contentImg": ""
           },
           {
-            "title": "",
-            "desc": "",
-            "img": ""
+            "contentTitle": "",
+            "contentDesc": "",
+            "contentImg": ""
           }
     ]},
     {
@@ -561,29 +561,29 @@
       "ageRate": "+13",
       "content": [
         {
-          "title": "",
-          "desc": "",
-          "img":""
+          "contentTitle": "",
+          "contentDesc": "",
+          "contentImg":""
           },
           {
-            "title": "",
-            "desc": "",
-            "img": ""
+            "contentTitle": "",
+            "contentDesc": "",
+            "contentImg": ""
           },
           {
-            "title": "",
-            "desc": "",
-            "img": ""
+            "contentTitle": "",
+            "contentDesc": "",
+            "contentImg": ""
           },
           {
-            "title": "",
-            "desc": "",
-            "img": ""
+            "contentTitle": "",
+            "contentDesc": "",
+            "contentImg": ""
           },
           {
-            "title": "",
-            "desc": "",
-            "img": ""
+            "contentTitle": "",
+            "contentDesc": "",
+            "contentImg": ""
           }
     ]},
     {
@@ -597,29 +597,29 @@
       "ageRate": "+13",
       "content": [
         {
-          "title": "",
-          "desc": "",
-          "img":""
+          "contentTitle": "",
+          "contentDesc": "",
+          "contentImg":""
           },
           {
-            "title": "",
-            "desc": "",
-            "img": ""
+            "contentTitle": "",
+            "contentDesc": "",
+            "contentImg": ""
           },
           {
-            "title": "",
-            "desc": "",
-            "img": ""
+            "contentTitle": "",
+            "contentDesc": "",
+            "contentImg": ""
           },
           {
-            "title": "",
-            "desc": "",
-            "img": ""
+            "contentTitle": "",
+            "contentDesc": "",
+            "contentImg": ""
           },
           {
-            "title": "",
-            "desc": "",
-            "img": ""
+            "contentTitle": "",
+            "contentDesc": "",
+            "contentImg": ""
           }
     ]},
     {
@@ -633,29 +633,29 @@
       "ageRate": "PG",
       "content": [
         {
-          "title": "",
-          "desc": "",
-          "img":""
+          "contentTitle": "",
+          "contentDesc": "",
+          "contentImg":""
           },
           {
-            "title": "",
-            "desc": "",
-            "img": ""
+            "contentTitle": "",
+            "contentDesc": "",
+            "contentImg": ""
           },
           {
-            "title": "",
-            "desc": "",
-            "img": ""
+            "contentTitle": "",
+            "contentDesc": "",
+            "contentImg": ""
           },
           {
-            "title": "",
-            "desc": "",
-            "img": ""
+            "contentTitle": "",
+            "contentDesc": "",
+            "contentImg": ""
           },
           {
-            "title": "",
-            "desc": "",
-            "img": ""
+            "contentTitle": "",
+            "contentDesc": "",
+            "contentImg": ""
           }
     ]}
   ],
@@ -672,29 +672,29 @@
       "ageRate": "PG",
       "episodes": [
         {
-          "title": "1. Slumber Party Panic",
-          "desc": "Princess Bumblegum's latest experiment accidentally unleashes an undead horde upon the Candy Kingdom.",
-          "img":"https://i.postimg.cc/cCm3fCRQ/cap1.jpg"
+          "contentTitle": "1. Slumber Party Panic",
+          "contentDesc": "Princess Bumblegum's latest experiment accidentally unleashes an undead horde upon the Candy Kingdom.",
+          "contentImg":"https://i.postimg.cc/cCm3fCRQ/cap1.jpg"
           },
           {
-            "title": "2. Trouble in Lumpy Space",
-            "desc": "Jake is bitten by Lumpy Space Princess and begins to transform into a Lumpy being. In order to find a cure, Finn is travels to Lumpy Space.",
-            "img": "https://i.postimg.cc/PrSZxLrH/cap2.jpg"
+            "contentTitle": "2. Trouble in Lumpy Space",
+            "contentDesc": "Jake is bitten by Lumpy Space Princess and begins to transform into a Lumpy being. In order to find a cure, Finn is travels to Lumpy Space.",
+            "contentImg": "https://i.postimg.cc/PrSZxLrH/cap2.jpg"
           },
           {
-            "title": "3. Prisoners of Love",
-            "desc": "After the Ice King kidnaps a large group of princesses, its up to Finn and Jake to free them.",
-            "img": "https://i.postimg.cc/6pSvrDv1/cap3.jpg"
+            "contentTitle": "3. Prisoners of Love",
+            "contentDesc": "After the Ice King kidnaps a large group of princesses, its up to Finn and Jake to free them.",
+            "contentImg": "https://i.postimg.cc/6pSvrDv1/cap3.jpg"
           },
           {
-            "title": "4. Tree Trunks",
-            "desc": "Tree Trunks joins Finn and Jake on an quest, but finds her talents for adventuring leave something to be desired.",
-            "img": "https://i.postimg.cc/yY1cshKn/cap4.jpg"
+            "contentTitle": "4. Tree Trunks",
+            "contentDesc": "Tree Trunks joins Finn and Jake on an quest, but finds her talents for adventuring leave something to be desired.",
+            "contentImg": "https://i.postimg.cc/yY1cshKn/cap4.jpg"
           },
           {
-            "title": "5. The Enchiridion! ",
-            "desc": "Princess Bubblegum sends Finn on his most challenging quest yet--to recover The Enchiridion, the hero's handbook.",
-            "img": "https://i.postimg.cc/R0HnXX1C/cap5.jpg"
+            "contentTitle": "5. The Enchiridion! ",
+            "contentDesc": "Princess Bubblegum sends Finn on his most challenging quest yet--to recover The Enchiridion, the hero's handbook.",
+            "contentImg": "https://i.postimg.cc/R0HnXX1C/cap5.jpg"
           }
       ]},
     {
@@ -709,29 +709,29 @@
       "ageRate": "+13",
       "episodes": [
         {
-          "title": "1. Your Will Shall Decide Your Destiny",
-          "desc": "Anne arrives at Green Gables and struggles with fitting into her new environment.",
+          "contentTitle": "1. Your Will Shall Decide Your Destiny",
+          "contentDesc": "Anne arrives at Green Gables and struggles with fitting into her new environment.",
           "img":"https://i.postimg.cc/wMvqbBK5/cap1.jpg"
           },
           {
-            "title": "2. I Am No Bird, and No Net Ensnares Me",
-            "desc": "Filled with worry Matthew Cuthbert races to find Anne before it's too late.",
-            "img": "https://i.postimg.cc/SQTNYc8g/cap2.jpg"
+            "contentTitle": "2. I Am No Bird, and No Net Ensnares Me",
+            "contentDesc": "Filled with worry Matthew Cuthbert races to find Anne before it's too late.",
+            "contentImg": "https://i.postimg.cc/SQTNYc8g/cap2.jpg"
           },
           {
-            "title": "3. But What Is So Headstrong as Youth?",
-            "desc": "Anne is introduced to the inner social workings of public school, while Marilla is introduced to the inner social workings of Avonlea's progressive young mothers.",
-            "img": "https://i.postimg.cc/wT1xX3Qg/cap3.jpg"
+            "contentTitle": "3. But What Is So Headstrong as Youth?",
+            "contentDesc": "Anne is introduced to the inner social workings of public school, while Marilla is introduced to the inner social workings of Avonlea's progressive young mothers.",
+            "contentImg": "https://i.postimg.cc/wT1xX3Qg/cap3.jpg"
           },
           {
-            "title": "4. An Inward Treasure Born",
-            "desc": "Anne and Marilla struggle with Anne's staunch boycott of the local school. A minister's backward advice has a reverse effect, causing Anne to fiercely challenge gender norms.",
-            "img": "https://i.postimg.cc/SKhybdFx/cap4.jpg"
+            "contentTitle": "4. An Inward Treasure Born",
+            "contentDesc": "Anne and Marilla struggle with Anne's staunch boycott of the local school. A minister's backward advice has a reverse effect, causing Anne to fiercely challenge gender norms.",
+            "contentImg": "https://i.postimg.cc/SKhybdFx/cap4.jpg"
           },
           {
-            "title": "5. Tightly Knotted to a Similar String",
-            "desc": "Anne is allowed to ask her best friend Diana over for afternoon tea, things start to go wrong when she looks for the Raspberry Cordial.",
-            "img": "https://i.postimg.cc/NFzshwY3/cap5.jpg"
+            "contentTitle": "5. Tightly Knotted to a Similar String",
+            "contentDesc": "Anne is allowed to ask her best friend Diana over for afternoon tea, things start to go wrong when she looks for the Raspberry Cordial.",
+            "contentImg": "https://i.postimg.cc/NFzshwY3/cap5.jpg"
           }
       ]},
     {
@@ -746,29 +746,29 @@
       "ageRate": "PG",
       "episodes": [
         {
-          "title": "1. Human Flesh",
-          "desc": "On top of watching his dysfunctional family crumble around him, Bob faces the wrath of a jealous health inspector who cooks up a nasty rumor about the restaurant's choice of meat.",
-          "img":"https://i.postimg.cc/KYZd5HhB/cap1.jpg"
+          "contentTitle": "1. Human Flesh",
+          "contentDesc": "On top of watching his dysfunctional family crumble around him, Bob faces the wrath of a jealous health inspector who cooks up a nasty rumor about the restaurant's choice of meat.",
+          "contentImg":"https://i.postimg.cc/KYZd5HhB/cap1.jpg"
           },
           {
-            "title": "2. Crawl Space",
-            "desc": "His in-law's are coming into town, and Bob tries desperately to concoct a plan to avoid them for as long as he can. Unfortunately, Bob did not plan to get stuck in the recesses of the family restaurant.",
-            "img": "https://i.postimg.cc/zDbXWVj5/cap2.jpg"
+            "contentTitle": "2. Crawl Space",
+            "contentDesc": "His in-law's are coming into town, and Bob tries desperately to concoct a plan to avoid them for as long as he can. Unfortunately, Bob did not plan to get stuck in the recesses of the family restaurant.",
+            "contentImg": "https://i.postimg.cc/zDbXWVj5/cap2.jpg"
           },
           {
-            "title": "3. Sacred Cow",
-            "desc": "A filmmaker placed a cow outside the restaurant to make a statement, which angers Bob, but his family is confused over how he treats the cow.",
-            "img": "https://i.postimg.cc/26yMsL65/cap3.jpg"
+            "contentTitle": "3. Sacred Cow",
+            "contentDesc": "A filmmaker placed a cow outside the restaurant to make a statement, which angers Bob, but his family is confused over how he treats the cow.",
+            "contentImg": "https://i.postimg.cc/26yMsL65/cap3.jpg"
           },
           {
-            "title": "4. Sexy Dance Fighting",
-            "desc": "Tina is going through the heartbreak of puberty; once they see it is not contagious, Gene and Louise try to cheer up their big sister. They show her what they believe is a smelly special needs breakdancing class in Brazilian. Tina's hormones are fueled by lithe, muscular Jairo and his martial art, Capoeira.",
-            "img": "https://i.postimg.cc/26tMrjb7/cap4.jpg"
+            "contentTitle": "4. Sexy Dance Fighting",
+            "contentDesc": "Tina is going through the heartbreak of puberty; once they see it is not contagious, Gene and Louise try to cheer up their big sister. They show her what they believe is a smelly special needs breakdancing class in Brazilian. Tina's hormones are fueled by lithe, muscular Jairo and his martial art, Capoeira.",
+            "contentImg": "https://i.postimg.cc/26tMrjb7/cap4.jpg"
           },
           {
-            "title": "5. Hamburger Dinner Theater",
-            "desc": "Linda is dying to relive her dream of becoming a star on Broadway, so she decides to host a dinner theater at the restaurant. But on opening night a shocking surprise leaves Linda with a more chilling production than she planned for.",
-            "img": "https://i.postimg.cc/v8J8vbqn/cap5.jpg"
+            "contentTitle": "5. Hamburger Dinner Theater",
+            "contentDesc": "Linda is dying to relive her dream of becoming a star on Broadway, so she decides to host a dinner theater at the restaurant. But on opening night a shocking surprise leaves Linda with a more chilling production than she planned for.",
+            "contentImg": "https://i.postimg.cc/v8J8vbqn/cap5.jpg"
           }
       ]},
     {
@@ -783,29 +783,29 @@
       "ageRate": "+13",
       "episodes": [
         {
-          "title": "1. Pilot",
-          "desc": "Detective Jake Peralta finds his work scrutinized when new Captain, Ray Holt, takes over at his precinct.",
-          "img":"https://i.postimg.cc/CL5CbC25/cap1.jpg"
+          "contentTitle": "1. Pilot",
+          "contentDesc": "Detective Jake Peralta finds his work scrutinized when new Captain, Ray Holt, takes over at his precinct.",
+          "contentImg":"https://i.postimg.cc/CL5CbC25/cap1.jpg"
           },
           {
-            "title": "2. The Tagger",
-            "desc": "When Jake arrives late for work, Captain Holt decides to shadow him. However, the arrest they make proves complicated. Meanwhile, a psychic friend of Gina's gets inside Charles' head.",
-            "img": "https://i.postimg.cc/VNqXzKJG/cap2.jpg"
+            "contentTitle": "2. The Tagger",
+            "contentDesc": "When Jake arrives late for work, Captain Holt decides to shadow him. However, the arrest they make proves complicated. Meanwhile, a psychic friend of Gina's gets inside Charles' head.",
+            "contentImg": "https://i.postimg.cc/VNqXzKJG/cap2.jpg"
           },
           {
-            "title": "3. The Slump",
-            "desc": "With a backlog of unsolved cases, Jake finds himself in a slump. Meanwhile, Amy is put in charge of the Junior Police Program for at risk kids, but her efforts to inspire them fall flat.",
-            "img": "https://i.postimg.cc/Fs6ypdtZ/cap3.jpg"
+            "contentTitle": "3. The Slump",
+            "contentDesc": "With a backlog of unsolved cases, Jake finds himself in a slump. Meanwhile, Amy is put in charge of the Junior Police Program for at risk kids, but her efforts to inspire them fall flat.",
+            "contentImg": "https://i.postimg.cc/Fs6ypdtZ/cap3.jpg"
           },
           {
-            "title": "4. M.E. Time",
-            "desc": "Jake meets an attractive Medical Examiner, but their relationship slows down her work, much to his colleagues' annoyance. Meanwhile, Amy desperately tries to impress Holt.",
-            "img": "https://i.postimg.cc/fLMmyYXw/cap4.jpg"
+            "contentTitle": "4. M.E. Time",
+            "contentDesc": "Jake meets an attractive Medical Examiner, but their relationship slows down her work, much to his colleagues' annoyance. Meanwhile, Amy desperately tries to impress Holt.",
+            "contentImg": "https://i.postimg.cc/fLMmyYXw/cap4.jpg"
           },
           {
-            "title": "5. The Vulture",
-            "desc": "A detective from Major Crimes takes over Jake's nearly solved murder case and steals his thunder.",
-            "img": "https://i.postimg.cc/hvjmbgp6/cap5.jpg"
+            "contentTitle": "5. The Vulture",
+            "contentDesc": "A detective from Major Crimes takes over Jake's nearly solved murder case and steals his thunder.",
+            "contentImg": "https://i.postimg.cc/hvjmbgp6/cap5.jpg"
           }
       ]},
     {
@@ -820,29 +820,29 @@
       "ageRate": "+13",
       "episodes": [
         {
-          "title": "1. The Eleventh Hour",
-          "desc": "With his TARDIS in ruins, the newly-regenerated Doctor with the help of Amy Pond must save the world in less than twenty minutes from galactic policemen known as the Atraxi.",
-          "img":"https://i.postimg.cc/13PCx75t/cap1.jpg"
+          "contentTitle": "1. The Eleventh Hour",
+          "contentDesc": "With his TARDIS in ruins, the newly-regenerated Doctor with the help of Amy Pond must save the world in less than twenty minutes from galactic policemen known as the Atraxi.",
+          "contentImg":"https://i.postimg.cc/13PCx75t/cap1.jpg"
           },
           {
-            "title": "2. The Beast Below",
-            "desc": "The Doctor takes Amy to the future inside Starship UK, which contains in addition to British explorers, an intimidating race known as the Smilers.",
-            "img": "https://i.postimg.cc/x8MRhMwM/cap2.jpg"
+            "contentTitle": "2. The Beast Below",
+            "contentDesc": "The Doctor takes Amy to the future inside Starship UK, which contains in addition to British explorers, an intimidating race known as the Smilers.",
+            "contentImg": "https://i.postimg.cc/x8MRhMwM/cap2.jpg"
           },
           {
-            "title": "3. Victory of the Daleks",
-            "desc": "The TARDIS takes The Doctor and Amy to war-torn Britain in the middle of World War Two. Not only do they meet Winston Churchill himself, but the Doctor comes face to face once again with his greatest enemy of all.",
-            "img": "https://i.postimg.cc/CxNvwCz4/cap3.jpg"
+            "contentTitle": "3. Victory of the Daleks",
+            "contentDesc": "The TARDIS takes The Doctor and Amy to war-torn Britain in the middle of World War Two. Not only do they meet Winston Churchill himself, but the Doctor comes face to face once again with his greatest enemy of all.",
+            "contentImg": "https://i.postimg.cc/CxNvwCz4/cap3.jpg"
           },
           {
-            "title": "4. The Time of Angels",
-            "desc": "The Doctor and Amy emerge from the TARDIS to find the wreck of the Byzantium spaceship. Down below the Weeping Angels are stirring, but the Doctor has someone else to contend with; none other than the mysterious Professor River Song.",
-            "img": "https://i.postimg.cc/KzKQ7dQ9/cap4.jpg"
+            "contentTitle": "4. The Time of Angels",
+            "contentDesc": "The Doctor and Amy emerge from the TARDIS to find the wreck of the Byzantium spaceship. Down below the Weeping Angels are stirring, but the Doctor has someone else to contend with; none other than the mysterious Professor River Song.",
+            "contentImg": "https://i.postimg.cc/KzKQ7dQ9/cap4.jpg"
           },
           {
-            "title": "5. Flesh and Stone",
-            "desc": "The Doctor, Amy, Dr. Song and the remaining soldiers manage to escape from the crashed ship and into the forest. The Angels attempt to create a rift in time and space much as the Doctor had found in Amy's room when they first met.",
-            "img": "https://i.postimg.cc/5tKnCx5Y/cap5.jpg"
+            "contentTitle": "5. Flesh and Stone",
+            "contentDesc": "The Doctor, Amy, Dr. Song and the remaining soldiers manage to escape from the crashed ship and into the forest. The Angels attempt to create a rift in time and space much as the Doctor had found in Amy's room when they first met.",
+            "contentImg": "https://i.postimg.cc/5tKnCx5Y/cap5.jpg"
           }
       ]},
     {
@@ -857,29 +857,29 @@
       "ageRate": "+18",
       "episodes": [
         {
-          "title": "1. Winter Is Coming",
-          "desc": "Eddard Stark is torn between his family and an old friend when asked to serve at the side of King Robert Baratheon; Viserys plans to wed his sister to a nomadic warlord in exchange for an army.",
-          "img":"https://i.postimg.cc/4354XD6g/cap1.jpg"
+          "contentTitle": "1. Winter Is Coming",
+          "contentDesc": "Eddard Stark is torn between his family and an old friend when asked to serve at the side of King Robert Baratheon; Viserys plans to wed his sister to a nomadic warlord in exchange for an army.",
+          "contentImg":"https://i.postimg.cc/4354XD6g/cap1.jpg"
           },
           {
-            "title": "2. The Kingsroad",
-            "desc": "While Bran recovers from his fall, Ned takes only his daughters to King's Landing. Jon Snow goes with his uncle Benjen to the Wall. Tyrion joins them.",
-            "img": "https://i.postimg.cc/Jh2X1Hcm/MV5-BMTQy-Mj-Mz-MDIx-OV5-BMl5-Ban-Bn-Xk-Ft-ZTcw-ODU2-ODg5-NA-V1-SX1500-CR0-0-1500-999-AL.jpg"
+            "contentTitle": "2. The Kingsroad",
+            "contentDesc": "While Bran recovers from his fall, Ned takes only his daughters to King's Landing. Jon Snow goes with his uncle Benjen to the Wall. Tyrion joins them.",
+            "contentImg": "https://i.postimg.cc/Jh2X1Hcm/MV5-BMTQy-Mj-Mz-MDIx-OV5-BMl5-Ban-Bn-Xk-Ft-ZTcw-ODU2-ODg5-NA-V1-SX1500-CR0-0-1500-999-AL.jpg"
           },
           {
-            "title": "3. Lord Snow",
-            "desc": "Jon begins his training with the Night's Watch; Ned confronts his past and future at King's Landing; Daenerys finds herself at odds with Viserys.",
-            "img": "https://i.postimg.cc/6QLVtpbp/MV5-BMm-Uz-N2-Fi-Yj-It-ZGUy-My00-Zj-Nl-LWFj-OWYt-ZDI4-Yzk3-Yz-Q4-OGRm-Xk-Ey-Xk-Fqc-Gde-QXVy-Mjg2-MTMy-NTM-V1-SY1000-SX1752-A.jpg"
+            "contentTitle": "3. Lord Snow",
+            "contentDesc": "Jon begins his training with the Night's Watch; Ned confronts his past and future at King's Landing; Daenerys finds herself at odds with Viserys.",
+            "contentImg": "https://i.postimg.cc/6QLVtpbp/MV5-BMm-Uz-N2-Fi-Yj-It-ZGUy-My00-Zj-Nl-LWFj-OWYt-ZDI4-Yzk3-Yz-Q4-OGRm-Xk-Ey-Xk-Fqc-Gde-QXVy-Mjg2-MTMy-NTM-V1-SY1000-SX1752-A.jpg"
           },
           {
-            "title": "4. Cripples, Bastards, and Broken Things",
-            "desc": "Eddard investigates Jon Arryn's murder. Jon befriends Samwell Tarly, a coward who has come to join the Night's Watch.",
-            "img": "https://i.postimg.cc/R0N3bVrY/MV5-BMTMw-NDQ0-MTIy-Ml5-BMl5-Ban-Bn-Xk-Ft-ZTcw-ODkx-Mzkx-NA-V1-SY1000-CR0-0-1503-1000-AL.jpg"
+            "contentTitle": "4. Cripples, Bastards, and Broken Things",
+            "decontentDescsc": "Eddard investigates Jon Arryn's murder. Jon befriends Samwell Tarly, a coward who has come to join the Night's Watch.",
+            "contentImg": "https://i.postimg.cc/R0N3bVrY/MV5-BMTMw-NDQ0-MTIy-Ml5-BMl5-Ban-Bn-Xk-Ft-ZTcw-ODkx-Mzkx-NA-V1-SY1000-CR0-0-1503-1000-AL.jpg"
           },
           {
-            "title": "5. The Wolf and the Lion",
-            "desc": "Catelyn has captured Tyrion and plans to bring him to her sister, Lysa Arryn, at the Vale, to be tried for his, supposed, crimes against Bran. Robert plans to have Daenerys killed, but Eddard refuses to be a part of it and quits.",
-            "img": "https://i.postimg.cc/k5cSLhDV/MV5-BNDVk-Y2-Vh-Nz-Yt-ZGJk-OC00-NWRj-LWJi-ZTgt-Mj-I4-Ym-I3-ZTU0-Y2-E4-Xk-Ey-Xk-Fqc-Gde-QXVy-Mjk3-NTUy-OTc-V1.jpg"
+            "contentTitle": "5. The Wolf and the Lion",
+            "contentDesc": "Catelyn has captured Tyrion and plans to bring him to her sister, Lysa Arryn, at the Vale, to be tried for his, supposed, crimes against Bran. Robert plans to have Daenerys killed, but Eddard refuses to be a part of it and quits.",
+            "contentImg": "https://i.postimg.cc/k5cSLhDV/MV5-BNDVk-Y2-Vh-Nz-Yt-ZGJk-OC00-NWRj-LWJi-ZTgt-Mj-I4-Ym-I3-ZTU0-Y2-E4-Xk-Ey-Xk-Fqc-Gde-QXVy-Mjk3-NTUy-OTc-V1.jpg"
           }
       ]},
     {
@@ -894,29 +894,29 @@
       "ageRate": "PG",
       "episodes": [
         {
-          "title": "1. Tourist Trapped",
-          "desc": "After finding a strange book in the forest, Dipper begins to learn about the dark side of Gravity Falls, and suspects that Mabel's new boyfriend is a zombie.",
-          "img":"https://i.postimg.cc/ydq35tsp/cap1.jpg"
+          "contentTitle": "1. Tourist Trapped",
+          "contentDesc": "After finding a strange book in the forest, Dipper begins to learn about the dark side of Gravity Falls, and suspects that Mabel's new boyfriend is a zombie.",
+          "contentImg":"https://i.postimg.cc/ydq35tsp/cap1.jpg"
           },
           {
-            "title": "2. The Legend of the Gobblewonker",
-            "desc": "Stan takes the kids fishing for the day, but they ditch him to search for a lake monster called the Gobblewonker in order to win a photo contest.",
-            "img": "https://i.postimg.cc/D06WSzsR/cap2.jpg"
+            "contentTitle": "2. The Legend of the Gobblewonker",
+            "contentDesc": "Stan takes the kids fishing for the day, but they ditch him to search for a lake monster called the Gobblewonker in order to win a photo contest.",
+            "contentImg": "https://i.postimg.cc/D06WSzsR/cap2.jpg"
           },
           {
-            "title": "3. Headhunters",
-            "desc": "The kids discover Stan's collection of wax sculptures, and Mabel decides to create her own. But when someone sabotages it, it's up to her and Dipper to solve the case.",
-            "img": "https://i.postimg.cc/NfN9Y5QH/cap3.jpg"
+            "contentTitle": "3. Headhunters",
+            "contentDesc": "The kids discover Stan's collection of wax sculptures, and Mabel decides to create her own. But when someone sabotages it, it's up to her and Dipper to solve the case.",
+            "contentImg": "https://i.postimg.cc/NfN9Y5QH/cap3.jpg"
           },
           {
-            "title": "4. The Hand That Rocks the Mabel",
-            "desc": "Dipper and Mabel go to see Stan's arch nemesis, a psychic by the name of Lil' Gideon, who becomes obsessed with Mabel.",
-            "img": "https://i.postimg.cc/brpDYnGQ/cap4.jpg"
+            "contentTitle": "4. The Hand That Rocks the Mabel",
+            "contentDesc": "Dipper and Mabel go to see Stan's arch nemesis, a psychic by the name of Lil' Gideon, who becomes obsessed with Mabel.",
+            "contentImg": "https://i.postimg.cc/brpDYnGQ/cap4.jpg"
           },
           {
-            "title": "5. The Inconveniencing",
-            "desc": "Dipper tries to impress Wendy by going along with her and her friends to an abandoned convenience store that may be haunted.",
-            "img": "https://i.postimg.cc/QtpKrmM8/cap5.jpg"
+            "contentTitle": "5. The Inconveniencing",
+            "contentDesc": "Dipper tries to impress Wendy by going along with her and her friends to an abandoned convenience store that may be haunted.",
+            "contentImg": "https://i.postimg.cc/QtpKrmM8/cap5.jpg"
           }
       ]},
     {
@@ -931,29 +931,29 @@
       "ageRate": "+13",
       "episodes": [
         {
-          "title": "1. Pilot",
-          "desc": "In an attempt to beautify her town, Leslie Knope takes on the seemingly simple job of helping turn an abandoned construction pit into a park.",
-          "img":"https://i.postimg.cc/d1BQBx1y/cap1.jpg"
+          "contentTitle": "1. Pilot",
+          "contentDesc": "In an attempt to beautify her town, Leslie Knope takes on the seemingly simple job of helping turn an abandoned construction pit into a park.",
+          "contentImg":"https://i.postimg.cc/d1BQBx1y/cap1.jpg"
           },
           {
-            "title": "2. Canvassing",
-            "desc": "Leslie gets a town hall meeting to discuss her park idea, but she finds out that public reception is less than receptive.",
-            "img": "https://i.postimg.cc/g2ZY5Jjd/cap2.jpg"
+            "contentTitle": "2. Canvassing",
+            "contentDesc": "Leslie gets a town hall meeting to discuss her park idea, but she finds out that public reception is less than receptive.",
+            "contentImg": "https://i.postimg.cc/g2ZY5Jjd/cap2.jpg"
           },
           {
-            "title": "3. The Reporter",
-            "desc": "Leslie gets a newspaper reporter to do a story about her and the park idea, but becomes upset when she finds out that the reporter slept with Mark.",
-            "img": "https://i.postimg.cc/v80HxkCR/cap3.jpg"
+            "contentTitle": "3. The Reporter",
+            "contentDesc": "Leslie gets a newspaper reporter to do a story about her and the park idea, but becomes upset when she finds out that the reporter slept with Mark.",
+            "contentImg": "https://i.postimg.cc/v80HxkCR/cap3.jpg"
           },
           {
-            "title": "4. Boys' Club",
-            "desc": "Leslie tries to infiltrate the boys' club of politics by crashing an after-work gathering at the town hall. Trying to fit in, she opens a gift basket breaking the local government ethics, and then is called before an ethics committee.",
-            "img": "https://i.postimg.cc/WzYNRq0p/cap4.jpg"
+            "contentTitle": "4. Boys' Club",
+            "contentDesc": "Leslie tries to infiltrate the boys' club of politics by crashing an after-work gathering at the town hall. Trying to fit in, she opens a gift basket breaking the local government ethics, and then is called before an ethics committee.",
+            "contentImg": "https://i.postimg.cc/WzYNRq0p/cap4.jpg"
           },
           {
-            "title": "5. The Cones of Dunshire",
-            "desc": "Chris mediates one final skirmish between Leslie and councilman Jamm, Ben begins a new job as an accountant, and Ron lets Donna and Tom try to sell one of his cabins.",
-            "img": "https://i.postimg.cc/vHjY39Q3/cap5.jpg"
+            "contentTitle": "5. The Cones of Dunshire",
+            "contentDesc": "Chris mediates one final skirmish between Leslie and councilman Jamm, Ben begins a new job as an accountant, and Ron lets Donna and Tom try to sell one of his cabins.",
+            "contentImg": "https://i.postimg.cc/vHjY39Q3/cap5.jpg"
           }
       ]}
   ]}

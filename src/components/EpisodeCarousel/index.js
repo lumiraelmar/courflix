@@ -33,31 +33,10 @@ class InnerCarousel extends React.Component {
   
 
   render() {
-    const { episodes, content } = this.props
+    const { content, carouselTitle } = this.props
     return (
       <div className='episodeCarouselWrapper'>
-        
-        {(episodes !== undefined) ?
-        <div>
-          <p className='episodesCarouselTitle'>Episodes</p>
-          <div className='sliderWrapper'>
-            <Slider {...this.settings}>
-              {episodes.map((episode, key) => {
-                return (
-                  <div className='episodeWrapper'>
-                    <img className='episodeImg' src={episode.img} key={key}/>
-                    <div className='episodeInfo'>
-                      <p className='episodeTitle'>{episode.title}</p>
-                      <p className='episodeDesc'>{episode.desc}</p>
-                    </div>
-                  </div>
-                )
-              })}
-            </Slider>
-          </div>
-        </div> : 
-        <div>
-          <p className='episodesCarouselTitle'>Recommended movies for YOU </p>
+          <p className='episodesCarouselTitle'>{carouselTitle}</p>
           <div className='sliderWrapper'>
             <Slider {...this.settings}>
               {content.map((cont, key) => {
@@ -72,8 +51,7 @@ class InnerCarousel extends React.Component {
                 )
               })}
             </Slider>
-          </div> 
-        </div> }
+          </div>
       </div>
     )
   }

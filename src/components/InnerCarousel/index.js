@@ -4,6 +4,7 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from 'react-router-dom';
+import Cards from '../../components/Cards';
 
 class InnerCarousel extends React.Component {
   constructor(props) {
@@ -24,6 +25,14 @@ class InnerCarousel extends React.Component {
           }
         },
         {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false
+          }
+        },
+        {
           breakpoint: 480,
           settings: {
             slidesToShow: 1,
@@ -31,28 +40,34 @@ class InnerCarousel extends React.Component {
             variableWidth: true,
             arrows: false
           }
-        }
+        },
       ]
     } 
   }
 
   render() {
-    console.log(this.props.option.mobileImg)
+    const { content, from } = this.props
     return (
-      <div className='sliderWrapper'>
-        <Slider {...this.settings}>
-          {this.props.option.map((serie, key) => {
-            return (
-              <div className='carouselImgWrapper'>
-                <Link to={`/content/${serie.id}`}>
-                  <img className='carouselImg' src={serie.img}/>
-                  <img className='carouselImgMobile' src={serie.mobileImg}/>
-                </Link>
-              </div>
-            )
-          })}
-        </Slider>
-      </div>
+      <>
+        {(from == 'home') ?
+        (
+          <Slider {...this.settings}>
+            {content.map((cont, key) => {
+              return (
+                <div className='carouselImgWrapper' key={key}>
+                  <Link to={`/content/${cont.id}`}>
+                    <img className='carouselImg' src={cont.img}/>
+                      {cont.mobileImg &&
+                    (<img className='carouselImgMobile' src={cont.mobileImg}/>)}
+                  </Link>
+                </div>
+              )
+            })}
+          </Slider>)
+        :
+        (<Cards content={content}/>
+        )}
+        </>
     )
   }
 }

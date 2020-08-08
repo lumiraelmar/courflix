@@ -15,9 +15,11 @@ class App extends React.Component {
         <Navbar logo={logo}/>
         <Hero infoSerie={data[0].series[1]} style={{backgroundImage:`linear-gradient(270deg, rgba(0, 0, 0, 0.0001) 65%, #000000 100%), url(${data[0].series[1].heroImg})`}}/>
         <div className="gradient"></div>
-        <Carousel option={data[0].series} title='Series' id='series'/>
-        <Carousel option={data[0].movies} title='Peliculas' id='movies'/>
-        <Carousel option={data[0].recent} title='Agregadas Recientemente' id='recent'/>
+        <div className='carouselsWrapper'>
+          <Carousel content={data[0].series} carouselTitle='Series' id='series' from='home'/>
+          <Carousel content={data[0].movies} carouselTitle='Movies' id='movies' from='home'/>
+          <Carousel content={data[0].recent} carouselTitle='Recently Added' id='recent' from='home'/>
+        </div>
       </div>
     )
   }

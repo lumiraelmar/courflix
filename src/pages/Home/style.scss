@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
 $mobile-breakpoint: 480px;
+$tablet-breakpoint: 1024px;
+$hamburger-breakpoint: 950px;
 * {
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
@@ -12,5 +14,17 @@ $mobile-breakpoint: 480px;
   margin-top: -150px;
   background: linear-gradient(0deg, black 26%, rgba(0, 0, 0, 0) 100%);
 }
-
+.carouselsWrapper {
+  padding: 0 80px;
+  margin-top: -50px;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  @media screen and (max-width: $tablet-breakpoint) {
+    padding: 0 50px;
+  }
+  @media screen and (max-width: $mobile-breakpoint) {
+    padding: 0 30px; 
+  }
+}
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../../components/Navbar/index';
 import Hero from '../../components/Hero/index';
-import EpisodeCarousel from '../../components/EpisodeCarousel';
+import Carousel from '../../components/Carousel';
 import '../SelectedSeries/style.scss';
 import logo from '../../assets/courflix.png'
 import data from '../../data/courflix.json'
@@ -14,8 +14,12 @@ class App extends React.Component {
     this.state = {
       serie: [],
       hero: '',
-      episodes: [],
-      content: []
+      content: [],
+      img: '',
+      title: '',
+      desc: '',
+      carouselTitle: '',
+      from: 'selectedSeries'
     }
   }
 
@@ -25,25 +29,33 @@ class App extends React.Component {
         return serie.id == this.props.match.params.id
       })
 
-
-      this.setState({
-        serie: filtered[0],
-        hero: filtered[0].heroImg,
-        episodes: filtered[0].episodes,
-        content: filtered[0].content
-      });
-      
+      if (filtered[0].episodes) {
+        this.setState({
+          serie: filtered[0],
+          hero: filtered[0].heroImg,
+          content: filtered[0].episodes,
+          carouselTitle: 'Episodes',
+        });
+      } else {
+        this.setState({
+          serie: filtered[0],
+          hero: filtered[0].heroImg,
+          content: filtered[0].content,
+          carouselTitle: 'Recommended movies for YOU',
+        });
+      }
     }
 
   render() {
-    const { serie, hero, episodes, content } = this.state
-    
+    const { serie, hero, carouselTitle, content, from } = this.state
     return (
       <div className='wrapper'>
         <Navbar logo={logo}/>
         <Hero infoSerie={serie} style={{backgroundImage:`linear-gradient(270deg, rgba(0, 0, 0, 0.0001) 65%, #000000 100%), url(${hero})`}} />
-        <div class="gradient"></div>
-        <EpisodeCarousel episodes={episodes} content={content}/>
+        <div className="gradient"></div>
+        <div className='carouselsWrapper'>
+          <Carousel content={content} carouselTitle={carouselTitle} from={from}/>
+        </div>
       </div>
     )
   }

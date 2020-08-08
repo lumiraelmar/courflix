@@ -1,17 +1,49 @@
 $mobile-breakpoint: 480px;
 $tablet-breakpoint: 1024px;
 $hamburger-breakpoint: 950px;
-
-.carouselImgWrapper {
-  padding-top: 15px;
-  .carouselImg {
-    width: 341px;
-    height: 192px;
-    object-fit: cover;
-    overflow: hidden;
+  .episodeWrapper {
+    color: #111;
+    display: flex;
+    flex-direction: column;
+    margin-right: 7px;
+    padding-top: 15px;
+    @media screen and (max-width: $tablet-breakpoint) {
+      flex-direction: column;
+      align-items: flex-start;
+    }
     @media screen and (max-width: $mobile-breakpoint) {
-      width: 220px;
-      height: 124px; 
+      flex-direction: column;
+    }
+    .episodeImg {
+      width: 341px;
+      height: 192px;
+      object-fit: cover;
+      @media screen and (max-width: $mobile-breakpoint) {
+        width: 220px;
+        height: 124px; 
+      }
+    }
+    .episodeInfo {
+      @media screen and (max-width: $mobile-breakpoint) {
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+      }
+      .episodeTitle {
+        color: #fff;
+        padding: 10px 0;
+        @media screen and (max-width: $mobile-breakpoint) {
+          font-size: 1rem;
+          }
+        
+      }
+      .episodeDesc {
+        display: none;
+        @media screen and (max-width: $mobile-breakpoint) {
+        display: block;
+        font-size: 0.9rem;
+        line-height: 1.1;
+        }
+      }
     }
   }
-}
