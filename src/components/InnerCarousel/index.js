@@ -1,10 +1,10 @@
 import React from 'react';
 import '../InnerCarousel/style.scss'
 import Slider from 'react-slick';
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
+import "../Card/node_modules/slick-carousel/slick/slick.css"; 
+import "../Card/node_modules/slick-carousel/slick/slick-theme.css";
 import { Link } from 'react-router-dom';
-import Cards from '../../components/Cards';
+import Card from '../Card';
 
 class InnerCarousel extends React.Component {
   constructor(props) {
@@ -32,15 +32,6 @@ class InnerCarousel extends React.Component {
             arrows: false
           }
         },
-        {
-          breakpoint: 480,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            variableWidth: true,
-            arrows: false
-          }
-        },
       ]
     } 
   }
@@ -65,7 +56,7 @@ class InnerCarousel extends React.Component {
             })}
           </Slider>)
         :
-        (<Cards content={content}/>
+        (<Card content={content}/>
         )}
         </>
     )

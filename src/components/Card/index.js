@@ -1,10 +1,10 @@
 import React from 'react';
-import '../Cards/style.scss'
+import './style.scss'
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
-class Cards extends React.Component {
+class Card extends React.Component {
   constructor(props) {
     super(props);
     this.settings = {
@@ -60,4 +60,4 @@ class Cards extends React.Component {
   }
 }
 
-export default Cards;
+export default Card;
