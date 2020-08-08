@@ -1,8 +1,8 @@
 import React from 'react';
 import '../InnerCarousel/style.scss'
 import Slider from 'react-slick';
-import "../Card/node_modules/slick-carousel/slick/slick.css"; 
-import "../Card/node_modules/slick-carousel/slick/slick-theme.css";
+import "../../../node_modules/slick-carousel/slick/slick.css"; 
+import "../../../node_modules/slick-carousel/slick/slick-theme.css";
 import { Link } from 'react-router-dom';
 import Card from '../Card';
 
