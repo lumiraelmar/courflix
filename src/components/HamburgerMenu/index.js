@@ -11,15 +11,15 @@ class HamburgerMenu extends React.Component {
     }
   }
 
-  handleClick() {
+  handleClose() {
     this.setState({
       isOpen: false
     })
   }
 
-  handleOnOpen() {
+  handleStateChange(state) {
     this.setState({
-      isOpen: true
+      isOpen: state.isOpen
     })
   }
 
@@ -29,23 +29,23 @@ class HamburgerMenu extends React.Component {
 
   render() {
     return (
-      <Menu slide onClick={() => this.handleOnOpen()}>
+      <Menu slide isOpen={this.state.isOpen} onStateChange={(state) => this.handleStateChange(state)}>
         <ul className='navbarMenu'>
           <a onClick={this.scrollToTop} href='/' className='menuItem'><li className='menuItem'>Home</li></a>
 
-          <Link activeClass="active" to="series" spy={true} smooth={true} offset={-80} duration={500} onSetActive={this.handleSetActive} onClick={() => this.handleClick()}>
+          <Link activeClass="active" to="series" spy={true} smooth={true} offset={-80} duration={500} onSetActive={this.handleSetActive} onClick={() => this.handleClose()}>
             <li className='menuItem'>Series</li>
           </Link>
 
-          <Link activeClass="active" to="movies" spy={true} smooth={true} offset={-80} duration={500} onSetActive={this.handleSetActive} onClick={() => this.handleClick()}>
+          <Link activeClass="active" to="movies" spy={true} smooth={true} offset={-80} duration={500} onSetActive={this.handleSetActive} onClick={() => this.handleClose()}>
           <li className='menuItem'>Movies</li>
           </Link>
 
-          <Link activeClass="active" to="recent" spy={true} smooth={true} offset={-80} duration={500} onSetActive={this.handleSetActive} onClick={() => this.handleClick()}>
+          <Link activeClass="active" to="recent" spy={true} smooth={true} offset={-80} duration={500} onSetActive={this.handleSetActive} onClick={() => this.handleClose()}>
           <li className='menuItem'>Recently Added</li>
           </Link>
 
-          <Link activeClass="active" to="/" spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive} onClick={() => this.handleClick()}>
+          <Link activeClass="active" to="/" spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive} onClick={() => this.handleClose()}>
           <li className='menuItem'>My list</li>
           </Link>
         </ul>
