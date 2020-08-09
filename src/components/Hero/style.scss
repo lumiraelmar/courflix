@@ -69,6 +69,9 @@ $hamburger-breakpoint: 950px;
           color: red;
           border-color: red;
         }
+        @media screen and (max-width: $mobile-breakpoint) {
+          display: none;
+        }
       }
     }
     
