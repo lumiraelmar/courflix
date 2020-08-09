@@ -1,6 +1,8 @@
+$mobile-breakpoint: 480px;
+$tablet-breakpoint: 1024px;
+$hamburger-breakpoint: 900px;
+
 .navbarMenu {
-  display: flex;
-  flex-direction: column;
   .menuItem {
     margin-bottom: 30px;
     font-size: 1.5rem;

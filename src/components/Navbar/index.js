@@ -13,7 +13,9 @@ class Navbar extends React.Component {
   render() {
     return (
       <nav className='nav'>
-        <HamburgerMenu />
+        <div className='hamburgerMenu'>
+          <HamburgerMenu />
+        </div>
         <a href='/'><img className='pageLogo' src={this.props.logo}></img></a>
         <ul className='navbar'>
           <a onClick={this.scrollToTop}><li className='link'>Home</li></a>
