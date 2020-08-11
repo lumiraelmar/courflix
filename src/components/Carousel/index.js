@@ -10,7 +10,7 @@ class Carousel extends React.Component {
     return (
       <div className='carouselWrapper'>
           <span className="carouselTitle" id={id}>{carouselTitle}</span>
-          <InnerCarousel watched={watched} content={content} from={from}/>
+          <InnerCarousel carouselTitle={carouselTitle} watched={watched} content={content} from={from}/>
       </div>
     )
   }

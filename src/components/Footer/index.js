@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.scss'
 
-class Card extends React.Component {
+class Footer extends React.Component {
   render() {
       return (
         <React.Fragment>
@@ -12,4 +12,4 @@ class Card extends React.Component {
   }
 }
 
-export default Card;
+export default Footer;

@@ -13,7 +13,7 @@ class InnerCarousel extends React.Component {
       slidesToScroll: 1,
       accessibility: true,
       centerMode: false,
-      infinite: this.props.from == 'selectedSeries' ? false : true,
+      infinite: props.from == 'selectedSeries' || props.carouselTitle == 'My List' ? false : true,
       speed: 400,
       variableWidth: true,
       responsive: [

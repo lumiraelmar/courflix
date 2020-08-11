@@ -40,10 +40,11 @@ class SelectedSeries extends React.Component {
         const randomizeMovies = data[0].movies.sort(function() {
           return .5 - Math.random();
         });
+        var limitRandomizeMovies = randomizeMovies.slice(0, 5);
         this.setState({
           serie: filtered[0],
           hero: filtered[0].heroImg,
-          content: randomizeMovies,
+          content: limitRandomizeMovies,
           carouselTitle: 'Recommended movies for YOU',
         });
       }

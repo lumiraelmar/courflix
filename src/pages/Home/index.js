@@ -29,7 +29,7 @@ class App extends React.Component {
         this.setState({
           watched: watched,
         });
-
+    /* localStorage to get movies you add to 'My List'*/
     const stringifiedList = localStorage.getItem('list');
     const myList = [];
     if (stringifiedList) {
@@ -48,7 +48,7 @@ class App extends React.Component {
     const { watched, from, myList } = this.state
     return (
       <div className='wrapper'>
-        <Navbar logo={logo}/>
+        <Navbar logo={logo} from={from}/>
         <Hero infoSerie={data[0].series[0]} style={{backgroundImage:`linear-gradient(270deg, rgba(0, 0, 0, 0.0001) 65%, #000000 100%), url(${data[0].series[0].heroImg})`}} />
         <div className="gradient"></div>
         <div className='carouselsWrapper'>

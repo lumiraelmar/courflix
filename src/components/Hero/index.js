@@ -14,17 +14,18 @@ class Hero extends React.Component {
   }
 
   handleClick(infoSerie) {
+    /* Add movies to 'My List' */
     const stringifiedList = localStorage.getItem('list');
     if (stringifiedList) {
       const parsedList = JSON.parse(stringifiedList);
-      //parsedList.map((serie) => {
-      //  if (serie !== infoSerie) {
-      //    parsedList.push(infoSerie)
-      //  } else { return }
-      //})
-      parsedList.push(infoSerie)
-      const newList = JSON.stringify(parsedList)
-      localStorage.setItem('list', newList)
+      const included = parsedList.map(serie => {
+        return infoSerie.id == serie.id
+      }) 
+      if (!included) {
+        parsedList.push(infoSerie)
+        const newList = JSON.stringify(parsedList)
+        localStorage.setItem('list', newList)
+      } else { return }
     } else {
       const parsedList = [infoSerie]
       const newList = JSON.stringify(parsedList)
@@ -87,4 +88,13 @@ class Hero extends React.Component {
   }
 }
 
+
+
+/* parsedList.map((serie) => {
+        if (infoSerie.id !== serie.id) {
+          parsedList.push(infoSerie)
+        }
+      }) 
+      const newList = JSON.stringify(parsedList)
+      localStorage.setItem('list', newList)*/
 export default Hero;
