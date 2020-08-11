@@ -41,10 +41,10 @@ class App extends React.Component {
         myList: myList
       })
     }
-      window.scrollBy(0, 0);
     }
 
   render() {
+    window.scrollTo(0, 0)
     const { watched, from, myList } = this.state
     return (
       <div className='wrapper'>

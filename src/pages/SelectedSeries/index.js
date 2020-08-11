@@ -52,6 +52,7 @@ class SelectedSeries extends React.Component {
     }
 
   render() {
+    window.scrollTo(0, 0)
     const { serie, hero, carouselTitle, content, from } = this.state
     return (
       <div className='wrapper'>
