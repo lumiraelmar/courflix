@@ -18,14 +18,14 @@ class Hero extends React.Component {
     const stringifiedList = localStorage.getItem('list');
     if (stringifiedList) {
       const parsedList = JSON.parse(stringifiedList);
-      const included = parsedList.map(serie => {
+      const included = parsedList.some(serie => {
         return infoSerie.id == serie.id
       }) 
       if (!included) {
         parsedList.push(infoSerie)
         const newList = JSON.stringify(parsedList)
         localStorage.setItem('list', newList)
-      } else { return }
+      } return 
     } else {
       const parsedList = [infoSerie]
       const newList = JSON.stringify(parsedList)
