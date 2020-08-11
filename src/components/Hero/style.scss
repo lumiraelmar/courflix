@@ -2,10 +2,36 @@ $mobile-breakpoint: 480px;
 $tablet-breakpoint: 1024px;
 $hamburger-breakpoint: 900px;
 
+.videoPlayer {
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+}
+.iconClose {
+  position: absolute;
+  right: 1%;
+  top: 12%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 3rem;
+  z-index: 999;
+  cursor: pointer;
+}
 .heroWrapper {
   color: #fff;
   display: block;
   font-family: 'Open Sans', sans-serif;
+  &.blur {
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+    -ms-filter: blur(6px);
+    -moz-filter: blur(6px);
+    -o-filter: blur(6px);
+  }
   .heroImg {
     background-size: cover;
     padding: 160px 80px 120px;
@@ -48,6 +74,7 @@ $hamburger-breakpoint: 900px;
         color: #fff;
         font-size: 1.3rem;
         font-weight: 300;
+        cursor: pointer;
         @media screen and (max-width: $mobile-breakpoint) {
           width: 131px;
           height: 43px;
@@ -117,4 +144,3 @@ $hamburger-breakpoint: 900px;
     }
     }
 }
-  

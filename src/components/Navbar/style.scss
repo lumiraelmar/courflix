@@ -8,7 +8,7 @@ $hamburger-breakpoint: 900px;
   font-weight: bold;
   position: fixed;
   width: 100%;
-  z-index: 1;
+  z-index: 99999999;
   background-color: rgba(0, 0, 0, 0.801218);
   @media screen and (max-width: $hamburger-breakpoint){
     background-color:  #000;
