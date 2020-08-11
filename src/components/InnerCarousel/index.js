@@ -17,7 +17,7 @@ class InnerCarousel extends React.Component {
       variableWidth: true,
       responsive: [
         {
-          breakpoint: 1500,
+          breakpoint: 1700,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
