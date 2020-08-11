@@ -12,7 +12,6 @@ class Hero extends React.Component {
     this.state = {
       like: 'icon',
       dislike: 'icon',
-      addRemove: 'Add to list',
       showVideo: 'none',
       clase: 'heroWrapper'
     }
@@ -102,7 +101,7 @@ class Hero extends React.Component {
               <p className='heroAge'>{ageRate}</p>
               <p className='heroYear'>{year}</p>
               {(seasons !== undefined) ?
-              <p className='heroSeasons'>{seasons} seasons</p> :
+              <p className='heroSeasons'>{seasons}</p> :
               <p>{minutes}</p>}
             </div>
             <p className='heroDescription'>{desc}</p>
