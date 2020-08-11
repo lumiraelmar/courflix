@@ -3,7 +3,6 @@ import '../InnerCarousel/style.scss'
 import Slider from 'react-slick';
 import "../../../node_modules/slick-carousel/slick/slick.css"; 
 import "../../../node_modules/slick-carousel/slick/slick-theme.css";
-import { Link } from 'react-router-dom';
 import Card from '../Card';
 
 class InnerCarousel extends React.Component {
@@ -13,7 +12,7 @@ class InnerCarousel extends React.Component {
       slidesToShow: 4,
       slidesToScroll: 1,
       accessibility: true,
-      infinite: true,
+      infinite: props.from == 'selectedSeries' ? false : true,
       speed: 400,
       variableWidth: true,
       responsive: [
@@ -27,37 +26,29 @@ class InnerCarousel extends React.Component {
         {
           breakpoint: 1024,
           settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
             arrows: false
           }
         },
       ]
     } 
+    if (props.from == 'selectedSeries') {
+      this.settings.breakpoints = {
+        settings: 'unslick'
+      }
+    }
   }
 
   render() {
     const { content, from } = this.props
     return (
       <>
-        {(from == 'home') ?
-        (
           <Slider {...this.settings}>
             {content.map((cont, key) => {
               return (
-                <div className='carouselImgWrapper' key={key}>
-                  <Link to={`/content/${cont.id}`}>
-                    <img className='carouselImg' src={cont.img}/>
-                      {cont.mobileImg &&
-                    (<img className='carouselImgMobile' src={cont.mobileImg}/>)}
-                  </Link>
-                </div>
+                <Card cont={cont} key={key} from={from}/>
               )
             })}
-          </Slider>)
-        :
-        (<Card content={content}/>
-        )}
+          </Slider>
         </>
     )
   }

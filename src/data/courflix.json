@@ -271,6 +271,7 @@
       "id": "8",
       "year": "2018",
       "ageRate": "+13",
+      "minutes": "2h 29min",
       "content": [
         {
           "contentTitle": "Big Hero 6",
@@ -307,6 +308,7 @@
       "id": "9",
       "year": "2014",
       "ageRate": "PG",
+      "minutes": "1h 42min",
       "content": [
         {
           "contentTitle": "",
@@ -343,6 +345,7 @@
       "id": "10",
       "year": "2009",
       "ageRate": "+13",
+      "minutes": "1h 40min",
       "content": [
         {
           "contentTitle": "",
@@ -379,6 +382,7 @@
       "id": "11",
       "year": "2020",
       "ageRate": "+13",
+      "minutes": "2h 40min",
       "content": [
         {
           "contentTitle": "",
@@ -415,6 +419,7 @@
       "id": "12",
       "year": "2014",
       "ageRate": "+16",
+      "minutes": "2h 29min",
       "content": [
         {
           "contentTitle": "",
@@ -451,6 +456,7 @@
       "id": "13",
       "year": "2001",
       "ageRate": "PG",
+      "minutes": "2h 32min",
       "content": [
         {
           "contentTitle": "",
@@ -487,6 +493,7 @@
       "id": "14",
       "year": "2014",
       "ageRate": "PG",
+      "minutes": "2h 5min",
       "content": [
         {
           "contentTitle": "",
@@ -523,6 +530,7 @@
       "id": "15",
       "year": "2016",
       "ageRate": "PG",
+      "minutes": "2h 8min",
       "content": [
         {
           "contentTitle": "",
@@ -559,6 +567,7 @@
       "id": "16",
       "year": "2001",
       "ageRate": "+13",
+      "minutes": "2h 58min",
       "content": [
         {
           "contentTitle": "",
@@ -595,6 +604,7 @@
       "id": "17",
       "year": "2018",
       "ageRate": "+13",
+      "minutes": "1h 57min",
       "content": [
         {
           "contentTitle": "",
@@ -631,6 +641,7 @@
       "id": "18",
       "year": "2009",
       "ageRate": "PG",
+      "minutes": "1h 36min",
       "content": [
         {
           "contentTitle": "",

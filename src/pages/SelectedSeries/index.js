@@ -8,16 +8,13 @@ import data from '../../data/courflix.json'
 
 
 
-class App extends React.Component {
+class SelectedSeries extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       serie: [],
       hero: '',
       content: [],
-      img: '',
-      title: '',
-      desc: '',
       carouselTitle: '',
       from: 'selectedSeries'
     }
@@ -44,6 +41,7 @@ class App extends React.Component {
           carouselTitle: 'Recommended movies for YOU',
         });
       }
+      window.scrollBy(0, 0);
     }
 
   render() {
@@ -61,4 +59,4 @@ class App extends React.Component {
   }
 }
 
-export default App;
+export default SelectedSeries;

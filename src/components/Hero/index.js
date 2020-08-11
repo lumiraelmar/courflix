@@ -42,7 +42,7 @@ class Hero extends React.Component {
   }
 
   render() {
-    const { title, seasons, desc, year, ageRate  } = this.props.infoSerie
+    const { title, seasons, desc, year, ageRate, minutes  } = this.props.infoSerie
     const { like, dislike } = this.state
     return (
       <div className='heroWrapper'>
@@ -58,7 +58,7 @@ class Hero extends React.Component {
             <p className='heroAge'>{ageRate}</p>
             <p className='heroYear'>{year}</p>
             {(seasons !== undefined) ?
-            <p className='heroSeasons'>{seasons} seasons</p> : <p></p>}
+            <p className='heroSeasons'>{seasons} seasons</p> : <p>{minutes}</p>}
           </div>
           <p className='heroDescription'>{desc}</p>
         </div>
