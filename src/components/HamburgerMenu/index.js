@@ -45,7 +45,7 @@ class HamburgerMenu extends React.Component {
           <li className='menuItem'>Recently Added</li>
           </Link>
 
-          <Link activeClass="active" to="/" spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive} onClick={() => this.handleClose()}>
+          <Link activeClass="active" to="mylist" spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive} onClick={() => this.handleClose()}>
           <li className='menuItem'>My list</li>
           </Link>
         </ul>

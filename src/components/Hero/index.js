@@ -13,6 +13,25 @@ class Hero extends React.Component {
     }
   }
 
+  handleClick(infoSerie) {
+    const stringifiedList = localStorage.getItem('list');
+    if (stringifiedList) {
+      const parsedList = JSON.parse(stringifiedList);
+      //parsedList.map((serie) => {
+      //  if (serie !== infoSerie) {
+      //    parsedList.push(infoSerie)
+      //  } else { return }
+      //})
+      parsedList.push(infoSerie)
+      const newList = JSON.stringify(parsedList)
+      localStorage.setItem('list', newList)
+    } else {
+      const parsedList = [infoSerie]
+      const newList = JSON.stringify(parsedList)
+      localStorage.setItem('list', newList)
+    }
+  }
+
   handleLike() {
     const { like } = this.state;
     if (like == 'icon') {
@@ -42,15 +61,15 @@ class Hero extends React.Component {
   }
 
   render() {
-    const { title, seasons, desc, year, ageRate, minutes  } = this.props.infoSerie
+    const { title, seasons, desc, year, ageRate, minutes, link  } = this.props.infoSerie
     const { like, dislike } = this.state
     return (
       <div className='heroWrapper'>
         <div className='heroImg' style={this.props.style}>
           <h1 className='heroTitle'>{title}</h1>
           <div className='alignCenter'>
-            <a className='heroButton' href=''>Play</a>
-            <a className='heroButton' href=''>Add to list</a>
+            <a className='heroButton' href={link}>Play Trailer</a>
+            <a className='heroButton' href='' onClick={() => this.handleClick(this.props.infoSerie)}>Add to list</a>
             <FontAwesomeIcon icon={faThumbsUp} className={like} onClick={() => this.handleLike()}/>
             <FontAwesomeIcon icon={faThumbsUp} rotation={180} className={dislike} onClick={() => this.handleDislike()}/>
           </div>
@@ -58,7 +77,8 @@ class Hero extends React.Component {
             <p className='heroAge'>{ageRate}</p>
             <p className='heroYear'>{year}</p>
             {(seasons !== undefined) ?
-            <p className='heroSeasons'>{seasons} seasons</p> : <p>{minutes}</p>}
+            <p className='heroSeasons'>{seasons} seasons</p> :
+            <p>{minutes}</p>}
           </div>
           <p className='heroDescription'>{desc}</p>
         </div>

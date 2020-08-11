@@ -20,7 +20,7 @@ $hamburger-breakpoint: 900px;
       background-position: center;
     }
     .heroTitle {
-      font-size: 7.5rem;
+      font-size: 6rem;
       margin-bottom: 40px;
       line-height: 6rem;
       max-width: 650px;
@@ -61,6 +61,7 @@ $hamburger-breakpoint: 900px;
         border-radius: 50px;
         padding: 7px;
         border: 2px solid #fff;
+        cursor: pointer;
         &.like{
           color: green;
           border-color: green;

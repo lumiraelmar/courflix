@@ -8,6 +8,7 @@ $hamburger-breakpoint: 900px;
     font-size: 1.5rem;
     text-decoration: none;
     color: #fff;
+    cursor: pointer;
     &:hover {
       color: #e20b0b;
       transition: 1s;
@@ -21,7 +22,7 @@ $hamburger-breakpoint: 900px;
   width: 30px;
   height: 26px;
   left: 25px;
-  top: 17px;
+  top: 20px;
 }
 
 /* Color/shape of burger icon bars */
@@ -32,7 +33,7 @@ $hamburger-breakpoint: 900px;
 /* Color/shape of burger icon bars on hover*/
 .bm-burger-bars-hover {
   transition: 1s;
-  background: #e20b0b;
+  background: #E50914;
 }
 
 /* Position and sizing of clickable cross button */

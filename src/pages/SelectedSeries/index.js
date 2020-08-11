@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../../components/Navbar/index';
 import Hero from '../../components/Hero/index';
 import Carousel from '../../components/Carousel';
+import Footer from '../../components/Footer';
 import '../SelectedSeries/style.scss';
 import logo from '../../assets/courflix.png'
 import data from '../../data/courflix.json'
@@ -16,7 +17,8 @@ class SelectedSeries extends React.Component {
       hero: '',
       content: [],
       carouselTitle: '',
-      from: 'selectedSeries'
+      from: 'selectedSeries',
+      recommendMovies: []
     }
   }
 
@@ -34,10 +36,14 @@ class SelectedSeries extends React.Component {
           carouselTitle: 'Episodes',
         });
       } else {
+        /*randomize movies array to recommend different movies everytime*/
+        const randomizeMovies = data[0].movies.sort(function() {
+          return .5 - Math.random();
+        });
         this.setState({
           serie: filtered[0],
           hero: filtered[0].heroImg,
-          content: filtered[0].content,
+          content: randomizeMovies,
           carouselTitle: 'Recommended movies for YOU',
         });
       }
@@ -48,12 +54,13 @@ class SelectedSeries extends React.Component {
     const { serie, hero, carouselTitle, content, from } = this.state
     return (
       <div className='wrapper'>
-        <Navbar logo={logo}/>
-        <Hero infoSerie={serie} style={{backgroundImage:`linear-gradient(270deg, rgba(0, 0, 0, 0.0001) 65%, #000000 100%), url(${hero})`}} />
+        <Navbar logo={logo} from={from}/>
+        <Hero infoSerie={serie} style={{backgroundImage:`linear-gradient(270deg, rgba(0, 0, 0, 0.0001) 65%, #000000 100%), url(${hero})`}}/>
         <div className="gradient"></div>
         <div className='carouselsWrapper'>
           <Carousel content={content} carouselTitle={carouselTitle} from={from}/>
         </div>
+        <Footer />
       </div>
     )
   }

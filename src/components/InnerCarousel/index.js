@@ -12,6 +12,7 @@ class InnerCarousel extends React.Component {
       slidesToShow: 4,
       slidesToScroll: 1,
       accessibility: true,
+      centerMode: false,
       infinite: this.props.from == 'selectedSeries' ? false : true,
       speed: 400,
       variableWidth: true,
@@ -41,17 +42,17 @@ class InnerCarousel extends React.Component {
   }
 
   render() {
-    const { content, from } = this.props
+    const { content, from, watched } = this.props
     return (
-      <>
-          <Slider {...this.settings}>
-            {content.map((cont, key) => {
-              return (
-                <Card cont={cont} key={key} from={from}/>
-              )
-            })}
-          </Slider>
-        </>
+      <React.Fragment>
+        <Slider {...this.settings}>
+          {content.map((cont, key) => {
+            return (
+              <Card cont={cont} key={key} from={from} watched={watched}/>
+            )
+          })}
+        </Slider>
+      </React.Fragment>
     )
   }
 }

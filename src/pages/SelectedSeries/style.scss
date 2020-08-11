@@ -27,11 +27,3 @@ $hamburger-breakpoint: 950px;
     }
   }
 }
-
-.sliderWrapper {
-  display: flex;
-  flex-direction: row;
-  @media screen and (max-width: $mobile-breakpoint) {
-    flex-direction: column;
-  }
-}

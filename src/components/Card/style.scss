@@ -23,6 +23,19 @@ $hamburger-breakpoint: 900px;
       margin-right: 7px;
     }
   }
+  .greyLoading {
+    margin: 7px auto 0;
+    height: 5px;
+    width: 280px;
+    background-color: #808080;
+    @media screen and (max-width: $mobile-breakpoint) {
+      display: none; 
+    }
+    .redLoading {
+      background-color: #cd5c5c;
+      height: 100%;
+    }
+  }
 }
 
 .episodeWrapper {
@@ -34,6 +47,12 @@ $hamburger-breakpoint: 900px;
     @media screen and (max-width: $tablet-breakpoint) {
       flex-direction: column;
       align-items: flex-start;
+      border-bottom: 1px solid #fff;
+      padding-bottom: 10px;
+      &.episodeWrapper:last-child {
+        border-bottom: 0;
+        padding-bottom: 0;
+      }
     }
     @media screen and (max-width: $mobile-breakpoint) {
       flex-direction: column;
@@ -43,8 +62,8 @@ $hamburger-breakpoint: 900px;
       height: 192px;
       object-fit: cover;
       @media screen and (max-width: $mobile-breakpoint) {
-        width: 220px;
-        height: 124px; 
+        width: 100%;
+        height: auto; 
       }
     }
     .episodeInfo {
@@ -56,6 +75,7 @@ $hamburger-breakpoint: 900px;
       .episodeTitle {
         color: #fff;
         padding: 10px 0;
+        max-width: 300px;
         @media screen and (max-width: $mobile-breakpoint) {
           font-size: 1rem;
           }
