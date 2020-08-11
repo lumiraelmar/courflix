@@ -69,7 +69,7 @@ class Hero extends React.Component {
         <div className='heroImg' style={this.props.style}>
           <h1 className='heroTitle'>{title}</h1>
           <div className='alignCenter'>
-            <a className='heroButton' href={link}>Play Trailer</a>
+            <a className='heroButton' href={link} target={"_blank"}>Play Trailer</a>
             <a className='heroButton' href='' onClick={() => this.handleClick(this.props.infoSerie)}>Add to list</a>
             <FontAwesomeIcon icon={faThumbsUp} className={like} onClick={() => this.handleLike()}/>
             <FontAwesomeIcon icon={faThumbsUp} rotation={180} className={dislike} onClick={() => this.handleDislike()}/>
