@@ -35,7 +35,7 @@ class App extends React.Component {
     if (stringifiedList) {
       const list = JSON.parse(stringifiedList)
       list.map(serie => {
-        myList.push(serie);
+        myList.unshift(serie);
       })
       this.setState({
         myList: myList
