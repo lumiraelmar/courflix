@@ -15,7 +15,6 @@ class InnerCarousel extends React.Component {
       infinite: props.from == 'selectedSeries' || props.carouselTitle == 'My List' ? false : true,
       speed: 400,
       variableWidth: true,
-      swipeToSlide: true,
       responsive: [
         {
           breakpoint: 1500,
@@ -29,7 +28,8 @@ class InnerCarousel extends React.Component {
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
-            arrows: false
+            arrows: false,
+            swipeToSlide: true
           }
         },
         {
