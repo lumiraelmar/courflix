@@ -12,7 +12,7 @@ class InnerCarousel extends React.Component {
       slidesToShow: 4,
       slidesToScroll: 1,
       accessibility: true,
-      infinite: props.from == 'selectedSeries' ? false : true,
+      infinite: this.props.from == 'selectedSeries' ? false : true,
       speed: 400,
       variableWidth: true,
       responsive: [
@@ -26,16 +26,18 @@ class InnerCarousel extends React.Component {
         {
           breakpoint: 1024,
           settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
             arrows: false
           }
         },
+        {
+          breakpoint: 480,
+          settings: ((props.from) == 'home') ? {slidesToShow: 1,
+            slidesToScroll: 1, arrows: false} :'unslick' 
+        }
       ]
     } 
-    if (props.from == 'selectedSeries') {
-      this.settings.breakpoints = {
-        settings: 'unslick'
-      }
-    }
   }
 
   render() {
