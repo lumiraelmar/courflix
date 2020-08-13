@@ -86,8 +86,8 @@ class Hero extends React.Component {
     const { like, dislike, showVideo, clase } = this.state
     return (
       <React.Fragment>
-        <FontAwesomeIcon icon={faTimes} className='iconClose' style={{display: `${showVideo}`}}onClick={() => this.handleVideo()} />
-        <ReactPlayer url={link} className='videoPlayer' style={{display: `${showVideo}`}}/>
+        <FontAwesomeIcon icon={faTimes} className='iconClose' style={{display: `${showVideo}`}} onClick={() => this.handleVideo()} />
+        <ReactPlayer url={link} className='videoPlayer' style={{display: `${showVideo}`}} />
         <div className={clase}>
           <div className='heroImg' style={this.props.style}>
             <h1 className='heroTitle'>{title}</h1>
