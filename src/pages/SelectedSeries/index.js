@@ -48,11 +48,10 @@ class SelectedSeries extends React.Component {
           carouselTitle: 'Recommended movies for YOU',
         });
       }
-      window.scrollBy(0, 0);
     }
 
   render() {
-    window.scrollTo(0, 0)
+    window.scrollTo(0, 0);
     const { serie, hero, carouselTitle, content, from } = this.state
     return (
       <div className='wrapper'>
